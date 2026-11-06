@@ -7,7 +7,7 @@
 - decision_label: [CONFIRM — learner has not decided]
 - sourcing_preference: Build (provisional)
 - scenario_probabilities: Weak 25% / Expected 50% / Strong 25% (provisional)
-- kill_threshold: [CONFIRM — learner has not decided]
+- kill_threshold: under 5 FTE agreed in principle by HR and Finance by end of week 6 (A3, learner-chosen 2026-11-06; provisional)
 - agentic_hint: yes
 - personal_data_hint: no
 - customers_outside_india_hint: yes

@@ -287,3 +287,257 @@ _One entry per action. Written by a4_log.py. Never edit past entries._
 ### #0086 | 2026-11-06T19:33:27+05:30 | PROMPT | section: A2.2 | prompt: route
 - Route advice for A2.2 prompt-tmpl: R2 (claude-sonnet-5-5); current model not visible, learner asked to say which model is active
 
+### #0087 | 2026-11-06T20:30:42+05:30 | PROMPT | section: - | prompt: resume
+- prompt-resume started
+
+### #0088 | 2026-11-06T20:30:42+05:30 | NOTE | section: - | prompt: resume
+- changed flagged 4 A1 files/ledger; all mtimes identical 20:24:29 (likely Drive sync), A1_final differs from v3-reviewed (expected); not marked reopened, learner to confirm
+
+### #0089 | 2026-11-06T20:30:43+05:30 | PROMPT | section: - | prompt: resume
+- prompt-resume completed; next prompt-tmpl A2.2
+
+### #0090 | 2026-11-06T20:31:55+05:30 | PROMPT | section: A2.2 | prompt: tmpl
+- prompt-tmpl A2.2 started
+
+### #0091 | 2026-11-06T20:33:10+05:30 | CHECK | section: A2.2 | prompt: tmpl
+- calc_check bucket sum PASS (175); scenarios FAIL expected, A2.3 pending
+
+### #0092 | 2026-11-06T20:33:11+05:30 | WRITE | section: A2.2 | prompt: tmpl
+- A2.2 v1-template and v2-filled written; ledger (provisional tco keys) and evidence log (E5) updated; 3 CONFIRM items
+- files: a4-workspace/sections/A2-2/A2-2_v1-template.md;a4-workspace/sections/A2-2/A2-2_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0093 | 2026-11-06T20:33:11+05:30 | PROMPT | section: A2.2 | prompt: tmpl
+- Prompt tmpl A2.2 completed; next prompt-review A2.2 after saving
+
+### #0094 | 2026-11-06T21:07:01+05:30 | PROMPT | section: - | prompt: resume
+- resume started
+
+### #0095 | 2026-11-06T21:07:11+05:30 | PROMPT | section: - | prompt: resume
+- resume completed; next: edit A2.2 v2-filled then prompt-review A2.2
+
+### #0096 | 2026-11-06T21:09:17+05:30 | CLARIFY | section: A2.2 | prompt: resume
+- Learner answered 4 CONFIRMs in chat (not yet saved in v2-filled)
+
+### #0097 | 2026-11-06T21:09:18+05:30 | DECISION | section: A2.2 | prompt: resume
+- Subscribed-source chargeback 10 -> 0 (already in function budget, not incremental cash); bucket 1 would be 22, total 165
+
+### #0098 | 2026-11-06T21:09:18+05:30 | DECISION | section: A2.2 | prompt: resume
+- Build team internal: buckets 2, 3, 5 are reallocated effort, no incremental cash; bucket 6 = 60 within Course 2 range 40-90
+
+### #0099 | 2026-11-06T21:10:52+05:30 | PROMPT | section: A2.2 | prompt: review
+- review A2.2 started
+
+### #0100 | 2026-11-06T21:13:46+05:30 | NOTE | section: A2.2 | prompt: review
+- v2-filled was unchanged template; v3 built from learner chat decisions (logged #0096-0098)
+
+### #0101 | 2026-11-06T21:13:46+05:30 | CHECK | section: A2.2 | prompt: review
+- calc_check buckets PASS (165); scenarios N/A until A2.3; box 92 words; X-01 X-11 X-17 PASS
+
+### #0102 | 2026-11-06T21:13:46+05:30 | REVIEW | section: A2.2 | prompt: review
+- 5 change groups, 0 open CONFIRM; band Partial -> Full; flag: cash vs effort for buckets 1 and 6
+
+### #0103 | 2026-11-06T21:13:46+05:30 | WRITE | section: A2.2 | prompt: review
+- v3-reviewed and review-report written; ledger tco keys reviewed; E5 updated
+- files: a4-workspace/sections/A2-2/A2-2_v3-reviewed.md;a4-workspace/sections/A2-2/A2-2_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0104 | 2026-11-06T21:13:47+05:30 | PROMPT | section: A2.2 | prompt: review
+- review A2.2 completed; next prompt-accept A2.2
+
+### #0105 | 2026-11-06T21:23:26+05:30 | PROMPT | section: A2.2 | prompt: accept
+- prompt-accept A2.2 started
+
+### #0106 | 2026-11-06T21:23:45+05:30 | CHECK | section: A2.2 | prompt: accept
+- No markers; arithmetic 165 PASS (scenario check n/a until A2.3); box 92 words; labels present; E1,E2,E5 exist
+
+### #0107 | 2026-11-06T21:23:45+05:30 | STATE | section: A2.2 | prompt: accept
+- A2.2 accepted; A2-2_final.md written; A2.2 ledger keys -> confirmed
+- files: a4-workspace/sections/A2-2/A2-2_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0108 | 2026-11-06T21:23:45+05:30 | DECISION | section: A2.2 | prompt: accept
+- Learner accepted A2.2 v3-reviewed unchanged
+
+### #0109 | 2026-11-06T21:23:45+05:30 | PROMPT | section: A2.2 | prompt: accept
+- Prompt accept A2.2 completed; next prompt-tmpl A2.3
+
+### #0110 | 2026-11-06T21:24:21+05:30 | PROMPT | section: A2.3 | prompt: tmpl
+- prompt-tmpl A2.3 started
+
+### #0111 | 2026-11-06T21:25:19+05:30 | CHECK | section: A2.3 | prompt: tmpl
+- calc_check all PASS (p=100, net, ROI, Expected cost 165); EV net -170.75
+
+### #0112 | 2026-11-06T21:25:20+05:30 | WRITE | section: A2.3 | prompt: tmpl
+- A2.3 v1-template and v2-filled written; ledger (provisional sc_* keys) and evidence log (E6) updated; 2 CONFIRM items in table plus Q1
+- files: a4-workspace/sections/A2-3/A2-3_v1-template.md;a4-workspace/sections/A2-3/A2-3_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0113 | 2026-11-06T21:25:20+05:30 | PROMPT | section: A2.3 | prompt: tmpl
+- Prompt tmpl A2.3 completed; next prompt-review A2.3 after saving
+
+### #0114 | 2026-11-06T21:30:13+05:30 | READ | section: A2.3 | prompt: explain
+- Explain request: read A2.3 v2-filled (Q1), spec a2-3.md, rubric row; no review report exists, no edits made
+- files: a4-workspace/sections/A2-3/A2-3_v2-filled.md;.claude/skills/a4-spec/sections/a2-3.md;.claude/skills/a4-spec/rubric.md
+
+### #0115 | 2026-11-06T21:56:47+05:30 | PROMPT | section: A2.3 | prompt: note
+- Learner feedback applied to A2.3 v2-filled (start)
+
+### #0116 | 2026-11-06T21:57:34+05:30 | READ | section: A2.3 | prompt: note
+- Read state, ledger, A2.3 v2-filled, evidence log
+
+### #0117 | 2026-11-06T21:57:34+05:30 | DECISION | section: A2.3 | prompt: note
+- Learner: likelihoods 25/50/25 agreed; Strong benefit via 20 FTE headcount reduction (960 annualised, 3 months = 240) supersedes 50% banked capacity
+
+### #0118 | 2026-11-06T21:57:35+05:30 | CHECK | section: A2.3 | prompt: note
+- calc_check PASS: Strong 240/170/70/41.2%; EV net -113.75
+- files: a4-workspace/.state/calc_a23.json
+
+### #0119 | 2026-11-06T21:57:35+05:30 | WRITE | section: A2.3 | prompt: note
+- A2.3 v2-filled updated (table, workings, Q1-Q3, guide); ledger sc_strong/ev_net/payback/probabilities and evidence E6 edited, E7 proposed; state unchanged (templated)
+- files: a4-workspace/sections/A2-3/A2-3_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0120 | 2026-11-06T21:57:35+05:30 | PROMPT | section: A2.3 | prompt: note
+- Feedback applied; open flags a-e listed in report
+
+### #0121 | 2026-11-06T22:51:14+05:30 | PROMPT | section: - | prompt: reconcile
+- Headcount-benefit reconciliation started (learner submission: Expected 10 FTE x 48k x 5/12, Strong 20 FTE x 48k x 3/12, severance excluded)
+
+### #0122 | 2026-11-06T22:51:44+05:30 | READ | section: - | prompt: reconcile
+- Read state, ledger, evidence log, log tail, A1/A2.1/A2.2 finals, A2.3 v2-filled
+
+### #0123 | 2026-11-06T22:52:14+05:30 | DECISION | section: - | prompt: reconcile
+- Learner decisions: Expected benefit 200, Strong 240 (10/20 FTE, 48k Finance-confirmed); severance/transition excluded as wider-org restructuring; Weak stays 0 pending confirmation
+
+### #0124 | 2026-11-06T22:56:29+05:30 | CHECK | section: - | prompt: reconcile
+- calc_check PASS: Expected 200/165/35/21.2%, Strong 240/170/70/41.2%, EV -13.75; alternatives A (2/12, 3/12 Strong) and B (3/12, 4/12) computed
+- files: a4-workspace/.state/calc_reconcile.json;a4-workspace/.state/calc_alt_A.json;a4-workspace/.state/calc_alt_B.json
+
+### #0125 | 2026-11-06T22:56:29+05:30 | STATE | section: A2.1 | prompt: reconcile
+- A2.1 and A2.2 reopened; finals and old v2 archived with .bak-20261106-2254; A2.3 v2 backed up
+
+### #0126 | 2026-11-06T22:56:29+05:30 | WRITE | section: - | prompt: reconcile
+- Edited A2.1 v2 (benefit 2 headcount, total 200), A2.2 v2 (cost-row sentence), A2.3 v2 (table, workings, Q1-Q3, guide), ledger, evidence log E6/E7, state notes
+- files: a4-workspace/sections/A2-1/A2-1_v2-filled.md;a4-workspace/sections/A2-2/A2-2_v2-filled.md;a4-workspace/sections/A2-3/A2-3_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md;a4-workspace/state.md
+
+### #0127 | 2026-11-06T22:56:29+05:30 | NOTE | section: - | prompt: reconcile
+- Open: 5/12 vs 3/12 timing, Weak headcount, attribution, A1 scope unchanged, other-function access cost
+
+### #0128 | 2026-11-06T22:56:29+05:30 | PROMPT | section: - | prompt: reconcile
+- Reconciliation completed; nothing marked reviewed or accepted
+
+### #0129 | 2026-11-06T23:04:14+05:30 | PROMPT | section: - | prompt: resume
+- resume started
+
+### #0130 | 2026-11-06T23:04:19+05:30 | PROMPT | section: - | prompt: resume
+- resume completed; next review A2.1
+
+### #0131 | 2026-11-06T23:06:44+05:30 | DECISION | section: A2.3 | prompt: note
+- Learner: Expected 2/12 months (benefit from month 11); Weak headcount 0; Expected negative; FTE counts Hypothetical; no extra cost for other functions
+
+### #0132 | 2026-11-06T23:06:45+05:30 | CHECK | section: A2.3 | prompt: note
+- Figures 80/165/(85)/-51.5, 240/170/70/41.2, 0/195/(195), EV (73.75) match earlier calc_check PASS
+- files: a4-workspace/.state/calc_alt_A.json
+
+### #0133 | 2026-11-06T23:06:45+05:30 | WRITE | section: - | prompt: note
+- Edited A2.1, A2.2, A2.3 v2, ledger, evidence E6/E7, state note
+- files: a4-workspace/sections/A2-1/A2-1_v2-filled.md;a4-workspace/sections/A2-2/A2-2_v2-filled.md;a4-workspace/sections/A2-3/A2-3_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md;a4-workspace/state.md
+
+### #0134 | 2026-11-06T23:06:45+05:30 | PROMPT | section: - | prompt: note
+- Feedback applied; nothing reviewed or accepted
+
+### #0135 | 2026-11-06T23:07:34+05:30 | PROMPT | section: A2.1 | prompt: review
+- review A2.1 started
+
+### #0136 | 2026-11-06T23:08:08+05:30 | CHECK | section: A2.1 | prompt: review
+- Manual arithmetic PASS (18, 24, 80, 480, 1.25 FTE); total 80 consistent with ledger and A2.3
+
+### #0137 | 2026-11-06T23:08:08+05:30 | REVIEW | section: A2.1 | prompt: review
+- 4 edits, 0 blocking CONFIRM; realisation Partial (upper), 3 judgement flags
+- files: a4-workspace/sections/A2-1/A2-1_v3-reviewed.md;a4-workspace/sections/A2-1/A2-1_review-report.md
+
+### #0138 | 2026-11-06T23:08:08+05:30 | PROMPT | section: A2.1 | prompt: review
+- review A2.1 completed
+
+### #0139 | 2026-11-06T23:08:29+05:30 | PROMPT | section: A2.1 | prompt: accept
+- accept A2.1 started
+
+### #0140 | 2026-11-06T23:08:30+05:30 | STATE | section: A2.1 | prompt: accept
+- A2.1 accepted; final written; ledger A2.1 rows confirmed
+- files: a4-workspace/sections/A2-1/A2-1_final.md
+
+### #0141 | 2026-11-06T23:08:30+05:30 | PROMPT | section: A2.1 | prompt: accept
+- accept A2.1 completed
+
+### #0142 | 2026-11-06T23:09:01+05:30 | PROMPT | section: A2.2 | prompt: review
+- review A2.2 started
+
+### #0143 | 2026-11-06T23:09:31+05:30 | CHECK | section: A2.2 | prompt: review
+- Manual arithmetic PASS: buckets sum to 165; 50.3% and 36.4% shares
+
+### #0144 | 2026-11-06T23:09:32+05:30 | REVIEW | section: A2.2 | prompt: review
+- 4 edits, 0 CONFIRM; band Full -> Full; 3 judgement flags
+- files: a4-workspace/sections/A2-2/A2-2_v3-reviewed.md;a4-workspace/sections/A2-2/A2-2_review-report.md
+
+### #0145 | 2026-11-06T23:09:32+05:30 | PROMPT | section: A2.2 | prompt: review
+- review A2.2 completed
+
+### #0146 | 2026-11-06T23:09:54+05:30 | PROMPT | section: A2.2 | prompt: accept
+- accept A2.2 started
+
+### #0147 | 2026-11-06T23:09:55+05:30 | STATE | section: A2.2 | prompt: accept
+- A2.2 accepted; final written; ledger A2.2 rows confirmed
+- files: a4-workspace/sections/A2-2/A2-2_final.md
+
+### #0148 | 2026-11-06T23:09:55+05:30 | PROMPT | section: A2.2 | prompt: accept
+- accept A2.2 completed
+
+### #0149 | 2026-11-06T23:10:27+05:30 | PROMPT | section: A2.3 | prompt: review
+- review A2.3 started
+
+### #0150 | 2026-11-06T23:11:11+05:30 | CHECK | section: A2.3 | prompt: review
+- calc_check PASS all lines; EV (73.75)
+- files: a4-workspace/.state/calc_alt_A.json
+
+### #0151 | 2026-11-06T23:11:11+05:30 | REVIEW | section: A2.3 | prompt: review
+- 4 edits, 0 CONFIRM; band Full -> Full; 4 judgement flags (word budget ~240 vs 180)
+- files: a4-workspace/sections/A2-3/A2-3_v3-reviewed.md;a4-workspace/sections/A2-3/A2-3_review-report.md
+
+### #0152 | 2026-11-06T23:11:11+05:30 | PROMPT | section: A2.3 | prompt: review
+- review A2.3 completed
+
+### #0153 | 2026-11-06T23:11:53+05:30 | WRITE | section: A2.3 | prompt: review
+- Q1 and Q3 cut at learner request; answers about 150 words
+- files: a4-workspace/sections/A2-3/A2-3_v3-reviewed.md;a4-workspace/sections/A2-3/A2-3_review-report.md
+
+### #0154 | 2026-11-06T23:12:22+05:30 | PROMPT | section: A2.3 | prompt: accept
+- accept A2.3 started
+
+### #0155 | 2026-11-06T23:12:22+05:30 | STATE | section: A2.3 | prompt: accept
+- A2.3 accepted; final written; ledger A2.3 rows confirmed
+- files: a4-workspace/sections/A2-3/A2-3_final.md
+
+### #0156 | 2026-11-06T23:12:23+05:30 | PROMPT | section: A2.3 | prompt: accept
+- accept A2.3 completed
+
+### #0157 | 2026-11-06T23:13:39+05:30 | PROMPT | section: A3 | prompt: route
+- start: model routing advice for A3
+
+### #0158 | 2026-11-06T23:13:39+05:30 | PROMPT | section: A3 | prompt: route
+- end: model sonnet-5-5 (R2); work R3 for prompt-tmpl A3; Fit SWITCH UP; awaiting stay/switch
+
+### #0159 | 2026-11-06T23:15:45+05:30 | PROMPT | section: A3 | prompt: tmpl
+- start: template A3
+
+### #0160 | 2026-11-06T23:22:34+05:30 | CHECK | section: A3 | prompt: tmpl
+- changed flagged A1 and A2.1 files; A1 unchanged in git since 40ffa02, stale hash after 20:24 sync (as #logged earlier); A2.1 final matches its current hash, backslash key is a stale duplicate; not marked reopened
+
+### #0161 | 2026-11-06T23:22:34+05:30 | CLARIFY | section: A3 | prompt: tmpl
+- Asked kill rule, gate owner, failure family; answers: headcount at end week 6; LT sponsor with Finance co-sign; inadequate data
+
+### #0162 | 2026-11-06T23:22:34+05:30 | DECISION | section: A3 | prompt: tmpl
+- Learner chose: kill if under 5 FTE agreed in principle by HR and Finance by end week 6, Executive sponsor stops; owner LT sponsor with function Finance manager co-sign; failure family inadequate data
+
+### #0163 | 2026-11-06T23:22:34+05:30 | WRITE | section: A3 | prompt: tmpl
+- A3 v1 and v2 written, status templated; ledger gate_1-4, kill_rule, failure_family, failure_measure, kill_threshold provisional; E4 and E7 extended; config kill_threshold set; 4 CONFIRM items
+- files: a4-workspace/sections/A3/A3_v1-template.md,a4-workspace/sections/A3/A3_v2-filled.md,a4-workspace/facts-ledger.md,a4-workspace/evidence/evidence-log.md,a4-workspace/config.md
+
+### #0164 | 2026-11-06T23:22:35+05:30 | PROMPT | section: A3 | prompt: tmpl
+- end: template A3 complete; next prompt-review A3
+
