@@ -541,3 +541,171 @@ _One entry per action. Written by a4_log.py. Never edit past entries._
 ### #0164 | 2026-11-06T23:22:35+05:30 | PROMPT | section: A3 | prompt: tmpl
 - end: template A3 complete; next prompt-review A3
 
+### #0165 | 2026-11-07T13:40:01+05:30 | PROMPT | section: - | prompt: resume
+- resume started
+
+### #0166 | 2026-11-07T13:40:11+05:30 | PROMPT | section: - | prompt: resume
+- resume completed; next: prompt-review A3 after learner edits v2
+
+### #0167 | 2026-11-07T14:15:03+05:30 | DECISION | section: A3 | prompt: feedback
+- Learner confirmed 4 CONFIRMs: pack 1 limit 20 days; sponsor Head of Finance (LT); 3-pack avg 20 days; HR lead Head of Business-HR (LT); release split 25/102/38, week-6 timing and Build window confirmed; Scale conditional, E4/A2.1 unchanged
+
+### #0168 | 2026-11-07T14:15:04+05:30 | WRITE | section: A3 | prompt: feedback
+- A3 v2 CONFIRM markers resolved, guide checklist replaced with confirmations
+- files: a4-workspace/sections/A3/A3_v2-filled.md
+
+### #0169 | 2026-11-07T14:17:25+05:30 | PROMPT | section: A3 | prompt: route
+- start: model routing advice for A3
+
+### #0170 | 2026-11-07T14:17:31+05:30 | PROMPT | section: A3 | prompt: route
+- end: model sonnet-5-5 (R2); work R4 for prompt-review A3 (R3 default, +1 for 4 accepted dependencies); Fit SWITCH UP; awaiting stay/switch
+
+### #0171 | 2026-11-07T14:18:17+05:30 | PROMPT | section: A3 | prompt: review
+- review A3 started
+
+### #0172 | 2026-11-07T14:21:09+05:30 | READ | section: A3 | prompt: review
+- Read A3 spec, rubric, brief, ledger, evidence log, A2.1-A2.3 finals, part-a L3
+- files: .claude/skills/a4-spec/sections/a3.md;.claude/skills/a4-knowledge/references/part-a-economics.md:24-39
+
+### #0173 | 2026-11-07T14:21:09+05:30 | DECISION | section: A3 | prompt: review
+- Learner confirmed in v2: pack limits 20 analyst-days; sponsor Head of Finance; HR lead Head of Business-HR; split 25/102/38 and week-6 timing
+
+### #0174 | 2026-11-07T14:21:10+05:30 | CHECK | section: A3 | prompt: review
+- Recomputed PASS: 165, 15.2/61.8/23.0%, buckets, 83, 132/195, month 19; X-01 X-04 X-11 X-17 PASS; X-05 X-07 X-13 N-A-yet
+
+### #0175 | 2026-11-07T14:21:10+05:30 | REVIEW | section: A3 | prompt: review
+- 8 edits, 0 CONFIRM; band Full -> Full; gate 2 evidence resequenced against gate 3 funding; main flag sponsor independence
+- files: a4-workspace/sections/A3/A3_v3-reviewed.md;a4-workspace/sections/A3/A3_review-report.md
+
+### #0176 | 2026-11-07T14:21:10+05:30 | WRITE | section: A3 | prompt: review
+- Wrote v3 and report; ledger gate, kill and failure rows set to reviewed; E4 updated
+- files: a4-workspace/sections/A3/A3_v3-reviewed.md;a4-workspace/sections/A3/A3_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0177 | 2026-11-07T14:21:11+05:30 | PROMPT | section: A3 | prompt: review
+- review A3 completed; next prompt-accept A3
+
+### #0178 | 2026-11-07T14:21:20+05:30 | WRITE | section: A3 | prompt: review
+- Clarified the 77% committed flag in the review report
+- files: a4-workspace/sections/A3/A3_review-report.md
+
+### #0179 | 2026-11-07T14:39:29+05:30 | PROMPT | section: A3 | prompt: accept
+- accept A3 started
+
+### #0180 | 2026-11-07T14:39:30+05:30 | CHECK | section: A3 | prompt: accept
+- Pre-accept PASS: no CONFIRM or GUIDE, releases sum 165, labels present, 235 words within tolerance, E4 E5 E7 exist; v3 unedited since review
+
+### #0181 | 2026-11-07T14:39:30+05:30 | DECISION | section: A3 | prompt: accept
+- Learner kept Head of Finance as sole gate decider despite independence flag, no HR co-decision; accepted resequenced sign-off and 25/102/38 split
+
+### #0182 | 2026-11-07T14:39:31+05:30 | STATE | section: A3 | prompt: accept
+- A3 accepted; final written; ledger A3 rows confirmed; config kill_threshold updated
+- files: a4-workspace/sections/A3/A3_final.md;a4-workspace/facts-ledger.md;a4-workspace/config.md
+
+### #0183 | 2026-11-07T14:39:31+05:30 | PROMPT | section: A3 | prompt: accept
+- accept A3 completed
+
+### #0184 | 2026-11-07T14:43:11+05:30 | PROMPT | section: A4 | prompt: route
+- start: model routing advice for A4
+
+### #0185 | 2026-11-07T14:43:11+05:30 | PROMPT | section: A4 | prompt: route
+- end: model sonnet-5-5 (R2); work R4 for prompt-tmpl A4 (R3 default, +1 for 5 accepted dependencies); Fit SWITCH UP; awaiting stay/switch
+
+### #0186 | 2026-11-07T14:48:12+05:30 | PROMPT | section: A4 | prompt: tmpl
+- tmpl A4 started
+
+### #0187 | 2026-11-07T14:48:43+05:30 | NOTE | section: A4 | prompt: tmpl
+- changed flagged A1, A2.1 finals, ledger, evidence, A3 v2; git diff shows A1/A2.1 unchanged since HEAD (stale hashes, as #0529); A3 v2 edit already reviewed and accepted; nothing reopened
+
+### #0188 | 2026-11-07T14:48:43+05:30 | READ | section: A4 | prompt: tmpl
+- Read spec brief, a4.md, ledger, evidence log, A1 and A2.3 and A3 finals, knowledge part-a L8-L9, part-c integrated plan, context pack
+
+### #0189 | 2026-11-07T14:52:14+05:30 | NOTE | section: A4 | prompt: tmpl
+- Learner silent on decision label and horizon; drafted Conditional Go and Horizon 2 as recommended defaults, both bracketed CONFIRM; data-containment uncertainty bracketed pending C1/C2/C4
+
+### #0190 | 2026-11-07T14:52:14+05:30 | WRITE | section: A4 | prompt: tmpl
+- Wrote A4 v1-template and v2-filled (3 CONFIRM; tranche = A3 gate 1 USD 25k); ledger A4 keys added provisional/suggested; evidence E1 E6 E7 marked used in A4; state templated
+- files: a4-workspace/sections/A4/A4_v1-template.md;a4-workspace/sections/A4/A4_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md;a4-workspace/state.md
+
+### #0191 | 2026-11-07T14:52:14+05:30 | PROMPT | section: A4 | prompt: tmpl
+- tmpl A4 completed; next prompt-review A4 after the learner saves v2-filled
+
+### #0192 | 2026-11-07T14:52:48+05:30 | WRITE | section: A4 | prompt: tmpl
+- Tightened rows 3-4 in v1 and v2 to bring the table near the 220-word budget; hashes re-recorded
+- files: a4-workspace/sections/A4/A4_v1-template.md;a4-workspace/sections/A4/A4_v2-filled.md
+
+### #0193 | 2026-11-07T17:58:00+05:30 | REVIEW | section: A4 | prompt: review
+- Applied learner chat submission (H2, Conditional Go, data containment, checks AGREED) to v2; reviewed to v3 (~238 words); ledger A4 keys reviewed; 1 CONFIRM
+- files: a4-workspace/sections/A4/A4_v2-filled.md;a4-workspace/sections/A4/A4_v3-reviewed.md;a4-workspace/sections/A4/A4_review-report.md;a4-workspace/facts-ledger.md
+
+### #0194 | 2026-11-07T18:01:10+05:30 | PROMPT | section: A4 | prompt: review
+- review A4 started
+
+### #0195 | 2026-11-07T18:03:40+05:30 | NOTE | section: A4 | prompt: review
+- Earlier review #0193 existed, v2 and v3 unchanged since; re-reviewed from v2; earlier v3 and report archived as bak-20261107-1802; A1, A2.1, A3 changed flags stale as before, nothing reopened
+
+### #0196 | 2026-11-07T18:03:41+05:30 | CHECK | section: A4 | prompt: review
+- Recomputed PASS: 15.2%, 84.8%, 13+12, 240, 480, (73.75); X-01 X-04 X-05 X-11 X-15 X-16 X-17 PASS; X-06 X-18 N-A-yet; 239 words, limit 242
+
+### #0197 | 2026-11-07T18:03:41+05:30 | REVIEW | section: A4 | prompt: review
+- 7 edits, 0 CONFIRM; band Partial -> Partial pending Parts B-C, indicative 4-5 -> 5-6; gate links and weighted net restored; main flag attribution
+- files: a4-workspace/sections/A4/A4_v3-reviewed.md;a4-workspace/sections/A4/A4_review-report.md
+
+### #0198 | 2026-11-07T18:03:41+05:30 | DECISION | section: A4 | prompt: review
+- Conditional Go and Horizon 2 taken from learner v2; config decision_label updated; row 2 rationale wording left for learner to check
+
+### #0199 | 2026-11-07T18:03:41+05:30 | WRITE | section: A4 | prompt: review
+- Wrote v3 and report; ledger A4 keys and downstream notes updated; E1 used-in reverted to A1; state reviewed
+- files: a4-workspace/sections/A4/A4_v3-reviewed.md;a4-workspace/sections/A4/A4_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/config.md;a4-workspace/evidence/evidence-log.md;a4-workspace/state.md
+
+### #0200 | 2026-11-07T18:03:42+05:30 | PROMPT | section: A4 | prompt: review
+- review A4 completed; next prompt-accept A4
+
+### #0201 | 2026-11-07T18:03:51+05:30 | NOTE | section: A4 | prompt: review
+- Correction to #0196: v3 table is 242 words, at the limit, not 239; report corrected
+- files: a4-workspace/sections/A4/A4_review-report.md
+
+### #0202 | 2026-11-07T18:10:06+05:30 | PROMPT | section: A4 | prompt: accept
+- accept A4 started
+
+### #0203 | 2026-11-07T18:10:27+05:30 | CHECK | section: A4 | prompt: accept
+- Pre-accept PASS: no CONFIRM or GUIDE, 5 rows, labels present, 242 words at limit, E6 E7 exist, tranche equals A3 gate 1, arithmetic recomputed; v3 unedited since review
+
+### #0204 | 2026-11-07T18:10:28+05:30 | DECISION | section: A4 | prompt: accept
+- Learner accepted v3 including reworded row 2 rationale; Conditional Go and Horizon 2 confirmed; attribution and other judgement flags left unchanged
+
+### #0205 | 2026-11-07T18:10:28+05:30 | STATE | section: A4 | prompt: accept
+- A4 accepted; final written; ledger A4 keys confirmed
+- files: a4-workspace/sections/A4/A4_final.md;a4-workspace/facts-ledger.md
+
+### #0206 | 2026-11-07T18:10:28+05:30 | PROMPT | section: A4 | prompt: accept
+- accept A4 completed; C1 C2 C3 C4 must honour A4 row 4 and label; next B1
+
+### #0207 | 2026-11-07T18:11:23+05:30 | PROMPT | section: B1 | prompt: route
+- start: model routing advice for B1
+
+### #0208 | 2026-11-07T18:11:32+05:30 | PROMPT | section: B1 | prompt: route
+- end: model sonnet-5-5 (R2); work R3 for prompt-tmpl B1 (R2 default, +1 for accepted dependencies and carried headcount flag); Fit SWITCH UP; awaiting stay/switch
+
+### #0209 | 2026-11-07T18:16:44+05:30 | PROMPT | section: B1 | prompt: tmpl
+- tmpl B1 started
+
+### #0210 | 2026-11-07T18:18:40+05:30 | READ | section: B1 | prompt: tmpl
+- Read B1 spec, part-b L1-L9, context pack, A1 A3 A4 finals, ledger, evidence log
+
+### #0211 | 2026-11-07T18:18:41+05:30 | NOTE | section: B1 | prompt: tmpl
+- changed flagged A1, A2.1 finals and others; A1 and A2.1 unchanged in git, stale hashes as #0529; A3 and A4 v2 edits already accepted; nothing reopened
+
+### #0212 | 2026-11-07T18:18:41+05:30 | CHECK | section: B1 | prompt: tmpl
+- Verified NIST AI RMF and ISO/IEC 42001 status on official sites from search summaries; NIST revision in progress noted; re-check before submission
+
+### #0213 | 2026-11-07T18:18:41+05:30 | WRITE | section: B1 | prompt: tmpl
+- Wrote B1 v1 and v2; ledger B1 keys provisional; E8 added, merge needed at X1; state templated
+- files: a4-workspace/sections/B1/B1_v1-template.md;a4-workspace/sections/B1/B1_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md;a4-workspace/state.md
+
+### #0214 | 2026-11-07T18:18:41+05:30 | PROMPT | section: B1 | prompt: tmpl
+- tmpl B1 completed; next prompt-review B1 after learner saves v2
+
+### #0215 | 2026-11-07T18:18:51+05:30 | WRITE | section: B1 | prompt: tmpl
+- Trimmed fairness row from 54 to 50 words to fit the row limit; v1 and v2 remain identical
+- files: a4-workspace/sections/B1/B1_v1-template.md;a4-workspace/sections/B1/B1_v2-filled.md
+

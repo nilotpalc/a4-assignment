@@ -10,9 +10,9 @@ Status flow: not_started -> templated -> filled -> reviewed -> accepted (reopene
 | A2.1 | Value mechanisms and evidence | 5 | accepted | a4-workspace/sections/A2-1/A2-1_final.md | 2026-11-06 23:08 |
 | A2.2 | Total cost of ownership (six buckets) | 6 | accepted | a4-workspace/sections/A2-2/A2-2_final.md | 2026-11-06 23:09 |
 | A2.3 | Weak / expected / strong cases | 7 | accepted | a4-workspace/sections/A2-3/A2-3_final.md | 2026-11-06 23:12 |
-| A3 | Stage-gated funding and failure controls | 9 | templated | a4-workspace/sections/A3/A3_v2-filled.md | 2026-11-06 23:22 |
-| A4 | Board-level recommendation and investment ask | 7 | not_started | - | - |
-| B1 | Responsible-AI design obligations | 7 | not_started | - | - |
+| A3 | Stage-gated funding and failure controls | 9 | accepted | a4-workspace/sections/A3/A3_final.md | 2026-11-07 14:39 |
+| A4 | Board-level recommendation and investment ask | 7 | accepted | a4-workspace/sections/A4/A4_final.md | 2026-11-07 18:10 |
+| B1 | Responsible-AI design obligations | 7 | templated | a4-workspace/sections/B1/B1_v2-filled.md | 2026-11-07 18:18 |
 | B2 | Governance, RACI, three lines of defence | 8 | not_started | - | - |
 | B3 | Ethics review, fairness, human oversight | 8 | not_started | - | - |
 | B4 | Autonomy, incident response, culture | 7 | not_started | - | - |
@@ -24,4 +24,4 @@ Status flow: not_started -> templated -> filled -> reviewed -> accepted (reopene
 | X2 | AI-assistance disclosure and honour declaration | 0 | not_started | - | - |
 | X3 | Executive decision summary (optional) | 0 | not_started | - | - |
 
-Accepted: 4/17 units (X3 is optional).
+Accepted: 6/17 units (X3 is optional).
