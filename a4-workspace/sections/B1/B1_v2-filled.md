@@ -1,0 +1,38 @@
+---
+section: B1
+title: "Responsible-AI design obligations"
+marks: 7
+version: v1-template
+generated: 2026-11-07T18:30:00+05:30
+---
+# B1. Convert responsible-AI principles into design obligations (7 marks)
+
+> [GUIDE] Budget: about 40 words per principle (+/-30%, so 28-52 a row, both columns together). Earns marks: each principle becomes an obligation specific to this agent, with a test someone could actually run or inspect, and a consequence if it fails. Full-credit descriptor: accountability, transparency, explainability and fairness each become testable obligations. Partial: principles listed but controls generic or proof weak. Low: ethical slogans. Edit the two right-hand columns only. Resolve every [CONFIRM].
+
+**Design obligations for the Leadership-team evidence-pack research agent (all obligations, tests and thresholds are proposed controls, Hypothetical; NIST AI RMF used as a guide, no certification sought, Ref E8) [CONFIRM: NIST AI RMF as the guide, or none]**
+
+| Taught principle | Specific design obligation for this initiative | Evidence / test demonstrating the obligation is met |
+|---|---|---|
+| Accountability | Executive sponsor (Head of Finance) owns agent outcomes [CONFIRM: this role as the single accountable owner]; the approving manager is named on each pack; the agent holds no release permission. | Quarterly audit: 100% of LT packs show a named approver; access log shows zero agent releases. A missing name blocks release. |
+| Transparency | Every pack must carry an AI-assisted label and a source register listing each allowlisted source, extract date and query used. | Validation reviewer traces 20 sampled claims per pilot pack, then quarterly [CONFIRM: sample size]: 100% allowlisted; any miss blocks release. |
+| Explainability | Each recommendation must state, in plain language, its main supporting evidence, contrary evidence, confidence level and evidence gaps; every figure links to its deterministic query. | Before go-live, the validation reviewer reproduces all figures in 3 pilot packs from saved queries; any mismatch blocks sign-off. |
+| Fairness | Agent makes no person-level decisions, holds no HR data and never informs which roles are cut [CONFIRM: true for your design]. Evidence quality must not favour any market region or source type. | Quarterly citation accuracy by region and source type: gap at most 10 percentage points [CONFIRM: groupings and threshold], else release pauses. Small sample: indicative only. |
+
+## Why this draft (guide - removed at compile)
+> [GUIDE]
+> - **Framework line** - Basis: the worksheet allows NIST AI RMF or ISO/IEC 42001 as a guide and does not require certification. NIST fits because it is voluntary and works as a self-measurement tool; these rows sit mainly under its Govern and Measure functions. ISO/IEC 42001 is a certifiable management-system standard, which is heavier than one initiative needs. Checked 2026-11-07: NIST's pages describe AI RMF 1.0 as voluntary and say a revised version is in progress, so re-check before submission. Sources: knowledge: part-b L2; E8. Consistency: framework_used.
+> - **Accountability** - Basis: the course's "named human owns each model's outcomes", and A3 already makes the Executive sponsor the go / hold / kill owner. The approver and the no-release permission turn A1's boundary into something inspectable. Justification: a role plus an access-log test is measurable; "the business owns it" is the accountability gap the course warns about. Sources: knowledge: part-b L1, L2; earlier work: I-1 quality-control pattern. Consistency: gate_1, ai_boundary, users; X-07 and X-12 (B2 must carry this role with one Accountable per row).
+> - **Transparency** - Basis: the course pattern is data documentation and provenance. Here that is the allowlist, citations and deterministic queries from A1. Justification: a sampled trace with a stated pass rate and a block on failure can be run; "regular review" cannot. The reader label covers how the output was made. Sources: knowledge: part-b L2; earlier work: I-1 controls (citation checking). Consistency: ai_role, gate_1, gate_3. Cost: at one reviewer day a quarter (Estimate) and USD 0.2k a day (E2), three live quarters cost about USD 0.6k, inside A3's gate 3 line of USD 3k for validation sign-off and audit support. Please check that assumption.
+> - **Explainability** - Basis: this agent makes no decision about a person, so the explanation is the reasoning of a pack, not an individual decision notice. Contrary evidence and confidence target the "confident but wrong" report named in Course 2 as the consequential error. Justification: reproducing figures from saved queries is a pass/fail test, and it stops go-live, which is the course's test of a real obligation. Sources: knowledge: part-b L2; earlier work: I-1 delegation zones. Consistency: gate_2, gate_3 (no uncited figure reaches the LT).
+> - **Fairness** - Basis: the course says that where there is no demographic data or person-level decision, use an outcome-quality measure across relevant groups, state the limits, or justify N/A. Market region and source type are proposed groups because a global function could be under-served by sources skewed to some markets. Justification: no demographic data is assumed, and the limitation is stated. The 10-point gap is my suggested starting value, not a taught or evidenced figure. I did not use the taught 4/5 ratio: it was built for selection rates, and it would allow 80% accuracy against 100%. Sources: knowledge: part-b L5. Consistency: personal_data_hint; X-12 (B3 must use the same metric).
+> - **Judgement flag: headcount** - All monetised benefit comes from a headcount reduction (E7). The agent does not select people, but if packs were ever used to inform which roles go, the system could count as high-risk under the course's "shapes a decision about a person's livelihood" test. The fairness row closes that route; B3 should address workforce impact and the risk tier directly. Saying fairness is "not applicable" would be weak here, even though it is technically arguable.
+> - **Judgement flag: independence** - The Executive sponsor owns outcomes, decides the gates and leads the function whose Finance team confirmed the USD 48k benefit figure (carried from A3 and A4). B2 needs the validation reviewer to report outside that line. Your decision stands; this only flags it.
+> - **Evidence log** - E8 is added for the framework, taking the working log past the seven rows the worksheet's table allows. Related rows will need merging when X1 is compiled, and C1 and C2 will add regulatory sources too.
+
+## To confirm before you save (guide)
+> [GUIDE]
+> 1. **Framework** - Recommended: NIST AI RMF as a guide, no certification.
+> 2. **Accountable owner** - Recommended: Executive sponsor (Head of Finance), matching A3. It must be one role, and it must appear in B2.
+> 3. **Sample size** - Recommended: 20 claims per pilot pack and per quarter. Lower it if reviewer time is short, but keep a stated number.
+> 4. **No HR data and no role selection** - Recommended: keep as written, if true. Only you can say whether any source in the three support functions holds person-level HR data. If one does, tell me: this affects B3, C1 and C2.
+> 5. **Fairness groupings and threshold** - Recommended: market region and source type, 10 percentage points. Name the groupings your packs actually cover, and keep them anonymised.
