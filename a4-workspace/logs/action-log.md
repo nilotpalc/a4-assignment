@@ -709,3 +709,278 @@ _One entry per action. Written by a4_log.py. Never edit past entries._
 - Trimmed fairness row from 54 to 50 words to fit the row limit; v1 and v2 remain identical
 - files: a4-workspace/sections/B1/B1_v1-template.md;a4-workspace/sections/B1/B1_v2-filled.md
 
+### #0216 | 2026-11-08T15:01:36+05:30 | PROMPT | section: B1 | prompt: review
+- prompt-review started for B1
+
+### #0217 | 2026-11-08T15:03:12+05:30 | NOTE | section: B1 | prompt: review
+- changed flagged stale hashes on accepted A-section files; git shows only B1 v2 modified, nothing reopened
+
+### #0218 | 2026-11-08T15:03:13+05:30 | DECISION | section: B1 | prompt: review
+- Learner resolved all 5 CONFIRMs in v2: NIST AI RMF guide, Head of Finance owner, 20-claim sample, no HR data, fairness groups sector (3) and region (4), China excluded
+
+### #0219 | 2026-11-08T15:03:13+05:30 | REVIEW | section: B1 | prompt: review
+- Review done: 6 edits, 0 CONFIRM items; band Full (lower) -> Full, 5-6 -> 6-7 of 7 (Estimate); judgement flag fairness sample 20 too small per group for 10-pt gap
+
+### #0220 | 2026-11-08T15:03:13+05:30 | CHECK | section: B1 | prompt: review
+- Word counts 50/47/48/57 PASS (+10%); X-07, X-12, X-15, X-17 checked; E8 present; no arithmetic
+
+### #0221 | 2026-11-08T15:03:13+05:30 | WRITE | section: B1 | prompt: review
+- Wrote B1 v3-reviewed and review report; ledger B1 keys reviewed; state reviewed
+- files: a4-workspace/sections/B1/B1_v3-reviewed.md;a4-workspace/sections/B1/B1_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0222 | 2026-11-08T15:03:14+05:30 | PROMPT | section: B1 | prompt: review
+- prompt-review B1 completed; next /prompt-accept B1
+
+### #0223 | 2026-11-08T15:06:59+05:30 | PROMPT | section: B1 | prompt: accept
+- prompt-accept started for B1
+
+### #0224 | 2026-11-08T15:07:10+05:30 | CHECK | section: B1 | prompt: accept
+- Accept checks PASS: no CONFIRM/GUIDE, Hypothetical label present, words 50/47/48/57, E8 exists; v3 unedited by learner; X-07/X-12 carried forward to B2/B3
+
+### #0225 | 2026-11-08T15:07:10+05:30 | STATE | section: B1 | prompt: accept
+- B1 accepted; final written; ledger B1 keys confirmed
+- files: a4-workspace/sections/B1/B1_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0226 | 2026-11-08T15:07:10+05:30 | DECISION | section: B1 | prompt: accept
+- Learner accepted B1 v3 unchanged, incl. 20-claim sample and 10-pt fairness gap despite sample-size flag
+
+### #0227 | 2026-11-08T15:07:11+05:30 | PROMPT | section: B1 | prompt: accept
+- accept B1 completed; B2 must carry Executive sponsor and independent validation reviewer; B3 must reuse fairness metric; next B2
+
+### #0228 | 2026-11-08T15:07:50+05:30 | PROMPT | section: B2 | prompt: route
+- start: model routing advice for B2
+
+### #0229 | 2026-11-08T15:07:56+05:30 | PROMPT | section: B2 | prompt: route
+- end: model sonnet-5-5 (R2); work R3 for prompt-tmpl B2 (R3 default; up-signal capped, no R4 conflict); Fit SWITCH UP; awaiting stay/switch
+
+### #0230 | 2026-11-08T15:08:44+05:30 | DECISION | section: B2 | prompt: route
+- Learner switched to claude-opus-5-5 for B2 template (R3)
+
+### #0231 | 2026-11-08T15:08:44+05:30 | PROMPT | section: B2 | prompt: tmpl
+- tmpl B2 started
+
+### #0232 | 2026-11-08T15:10:05+05:30 | READ | section: B2 | prompt: tmpl
+- Read B2 spec, brief, part-b L1-L3, context pack org and I-1 sections, A3 A4 A1 B1 finals, ledger, evidence log
+
+### #0233 | 2026-11-08T15:10:05+05:30 | WRITE | section: B2 | prompt: tmpl
+- Wrote B2 v1 and v2 (3 CONFIRM sites, 4 confirm items); ledger B2 keys provisional; no new E-ids; state templated
+- files: a4-workspace/sections/B2/B2_v1-template.md;a4-workspace/sections/B2/B2_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0234 | 2026-11-08T15:10:06+05:30 | PROMPT | section: B2 | prompt: tmpl
+- tmpl B2 completed; next prompt-review B2 after learner saves v2
+
+### #0235 | 2026-11-08T15:10:13+05:30 | NOTE | section: B2 | prompt: tmpl
+- Correction to #0233: B2 tables hold 4 CONFIRM markers (second-line name twice, Internal Audit, escalation bodies) under 3 confirm items plus 2 unmarked suggestions
+
+### #0236 | 2026-11-08T17:23:43+05:30 | CLARIFY | section: B2 | prompt: tmpl
+- Learner asked who can act as validation reviewer without a Risk & Compliance function; advised central data/AI governance or digital CoE first, peer analytics team second, external validator third; avoid Finance-line controls and Internal Audit
+
+### #0237 | 2026-11-08T17:37:53+05:30 | WRITE | section: B2 | prompt: -
+- Applied learner feedback to B2_v2-filled: second line = Central AI team Project Lead (anonymised); third line = Enterprise Risk Support team; 2 working days and sponsor-cannot-overrule confirmed; CONFIRMs resolved except escalation body names
+- files: a4-workspace/sections/B2/B2_v2-filled.md;a4-workspace/facts-ledger.md
+
+### #0238 | 2026-11-08T17:39:40+05:30 | WRITE | section: B2 | prompt: -
+- Renamed Central AI team to AI Center of Excellence (AI CoE) in B2 and ledger
+- files: a4-workspace/sections/B2/B2_v2-filled.md;a4-workspace/facts-ledger.md
+
+### #0239 | 2026-11-08T17:42:55+05:30 | WRITE | section: B2 | prompt: -
+- Incident RACI row: AI CoE Project Lead and Enterprise Risk Support team set as Consulted (ERS moved from Informed)
+- files: a4-workspace/sections/B2/B2_v2-filled.md;a4-workspace/facts-ledger.md
+
+### #0240 | 2026-11-08T17:44:23+05:30 | PROMPT | section: B2 | prompt: review
+- prompt-review started for B2
+
+### #0241 | 2026-11-08T17:45:41+05:30 | CLARIFY | section: B2 | prompt: review
+- Asked 4: escalation names -> keep generic LT + enterprise risk committee; row 2 A -> Head of AI CoE; AI CoE runs the model gateway -> yes; IRM -> information risk management
+
+### #0242 | 2026-11-08T17:45:41+05:30 | DECISION | section: B2 | prompt: review
+- Learner chose AI CoE Project Lead as validation reviewer (line 2), Enterprise Risk Support team as line 3, Head of AI CoE as A for drift row; confirmed 2-day timing and no sponsor override
+
+### #0243 | 2026-11-08T17:46:23+05:30 | REVIEW | section: B2 | prompt: review
+- Review done: 7 edits, 0 CONFIRM; band Partial-Full -> Full (lower), 5-6 -> 6-7 of 8 (Estimate); flags: line 3 is a risk team not audit; AI CoE runs gateway
+
+### #0244 | 2026-11-08T17:46:23+05:30 | CHECK | section: B2 | prompt: review
+- One A per RACI row PASS; X-07 roles from A3/B1 present PASS; no CONFIRM/GUIDE; ~330 words; no E-ids needed
+
+### #0245 | 2026-11-08T17:46:23+05:30 | WRITE | section: B2 | prompt: review
+- Wrote B2 v3-reviewed and review report; ledger B2 keys reviewed; state reviewed
+- files: a4-workspace/sections/B2/B2_v3-reviewed.md;a4-workspace/sections/B2/B2_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0246 | 2026-11-08T17:46:23+05:30 | PROMPT | section: B2 | prompt: review
+- prompt-review B2 completed; next /prompt-accept B2
+
+### #0247 | 2026-11-08T17:51:28+05:30 | PROMPT | section: B2 | prompt: review
+- prompt-review re-run for B2 after learner edited v3
+
+### #0248 | 2026-11-08T17:51:29+05:30 | STATE | section: B2 | prompt: review
+- Detected learner edit to B2 v3 (row 3 independence sentence added); re-review after small edit
+
+### #0249 | 2026-11-08T17:51:42+05:30 | REVIEW | section: B2 | prompt: review
+- Re-review: 1 edit to learner's row 3 sentence; 0 CONFIRM; band Full (lower), 6-7 of 8 (Estimate); third-line flag partly resolved
+
+### #0250 | 2026-11-08T17:51:42+05:30 | CHECK | section: B2 | prompt: review
+- No CONFIRM/GUIDE; ~350 words; one A per RACI row; X-07 unchanged PASS
+
+### #0251 | 2026-11-08T17:51:42+05:30 | WRITE | section: B2 | prompt: review
+- Archived prior v3, wrote re-reviewed v3, appended report, ledger role_line3 updated
+- files: a4-workspace/sections/B2/B2_v3-reviewed.md;a4-workspace/sections/B2/B2_v3-reviewed.bak-20261108-1730.md;a4-workspace/sections/B2/B2_review-report.md;a4-workspace/facts-ledger.md
+
+### #0252 | 2026-11-08T17:51:43+05:30 | PROMPT | section: B2 | prompt: review
+- prompt-review B2 re-run completed; next /prompt-accept B2
+
+### #0253 | 2026-11-08T17:52:40+05:30 | PROMPT | section: B2 | prompt: accept
+- prompt-accept started for B2
+
+### #0254 | 2026-11-08T17:52:48+05:30 | CHECK | section: B2 | prompt: accept
+- Accept checks PASS: no CONFIRM/GUIDE, Hypothetical label, one A per RACI row, X-07 roles present, ~350 words, no E-ids used
+
+### #0255 | 2026-11-08T17:52:48+05:30 | STATE | section: B2 | prompt: accept
+- B2 accepted; final written; ledger B2 keys confirmed
+- files: a4-workspace/sections/B2/B2_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0256 | 2026-11-08T17:52:49+05:30 | DECISION | section: B2 | prompt: accept
+- Learner accepted B2 v3 incl. Enterprise Risk Support as line 3 and AI CoE as line 2
+
+### #0257 | 2026-11-08T17:52:49+05:30 | PROMPT | section: B2 | prompt: accept
+- accept B2 completed; B3/B4 must reuse validation reviewer (AI CoE Project Lead) and Executive sponsor as incident owner; next B3
+
+### #0258 | 2026-11-08T17:55:14+05:30 | PROMPT | section: B3 | prompt: route
+- start: model-routing advice for B3
+
+### #0259 | 2026-11-08T17:55:15+05:30 | PROMPT | section: B3 | prompt: route
+- end: B3 not_started -> prompt-tmpl, default R3, no signal; model claude-opus-5-5 covers R3; Fit OK
+
+### #0260 | 2026-11-08T17:55:55+05:30 | PROMPT | section: B3 | prompt: tmpl
+- start: template B3
+
+### #0261 | 2026-11-08T17:56:06+05:30 | CHECK | section: B3 | prompt: tmpl
+- changed flagged stale hashes on accepted A/B1 files; git shows no accepted final modified after accept; nothing reopened
+
+### #0262 | 2026-11-08T17:56:56+05:30 | WRITE | section: B3 | prompt: tmpl
+- B3 v1-template and v2-filled written (~250 words, 2 CONFIRM); state templated; 8 B3 ledger keys provisional; no E-ids
+- files: a4-workspace/sections/B3/B3_v1-template.md;a4-workspace/sections/B3/B3_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0263 | 2026-11-08T17:56:56+05:30 | PROMPT | section: B3 | prompt: tmpl
+- end: template B3; reuses B1 20-claim sample and 10-pt gap, B2 roles and triggers; next prompt-review B3
+
+### #0264 | 2026-11-08T17:58:29+05:30 | CLARIFY | section: B3 | prompt: tmpl
+- Learner asked whether B1 10-point gap implies 90% supported-claim threshold; explained gap is a between-group difference, not an accuracy floor; threshold left as learner's choice in v2 CONFIRM
+
+### #0265 | 2026-11-08T18:05:29+05:30 | WRITE | section: B3 | prompt: -
+- Learner confirmed B3 CONFIRMs: supported-claim threshold 95% (rows 2, 4), manager review time at least 1 working day; optional third automation-bias control left out (word budget). Three [CONFIRM] markers resolved in v2-filled
+- files: a4-workspace/sections/B3/B3_v2-filled.md
+
+### #0266 | 2026-11-08T18:14:41+05:30 | PROMPT | section: B3 | prompt: review
+- start: review B3
+
+### #0267 | 2026-11-08T18:15:52+05:30 | REVIEW | section: B3 | prompt: review
+- v2 resolved both CONFIRMs at defaults (95%, 1 working day); 6 edits: re-review owner, metric name, trained approver, quarterly sample re-checks approvals, blocker authority, cleanup; band 6-7 -> 7 of 8 (Estimate)
+- files: a4-workspace/sections/B3/B3_v3-reviewed.md;a4-workspace/sections/B3/B3_review-report.md
+
+### #0268 | 2026-11-08T18:15:52+05:30 | CHECK | section: B3 | prompt: review
+- X-07, X-12, X-17, gate 3 PASS; ~272 words (budget 260, within 10%); no E-ids; judgement flag: per-group sample (~7 per sector, ~5 per region) makes one miss breach 10-pt gap, so 95% acts as 100%
+
+### #0269 | 2026-11-08T18:15:53+05:30 | WRITE | section: B3 | prompt: review
+- v3-reviewed, review report written; ledger B3 keys reviewed; state reviewed
+- files: a4-workspace/sections/B3/B3_v3-reviewed.md;a4-workspace/sections/B3/B3_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0270 | 2026-11-08T18:15:53+05:30 | PROMPT | section: B3 | prompt: review
+- end: review B3; next prompt-accept B3
+
+### #0271 | 2026-11-08T18:17:04+05:30 | DECISION | section: B3 | prompt: review
+- Learner kept 95% threshold and 10-pt gap; strictness noted in row 2 limits; B1 not reopened
+
+### #0272 | 2026-11-08T18:17:05+05:30 | WRITE | section: B3 | prompt: review
+- v3 row 2 limits updated; report addendum; ledger quality_metric updated
+- files: a4-workspace/sections/B3/B3_v3-reviewed.md;a4-workspace/sections/B3/B3_review-report.md;a4-workspace/facts-ledger.md
+
+### #0273 | 2026-11-08T18:17:44+05:30 | PROMPT | section: B3 | prompt: accept
+- start: accept B3
+
+### #0274 | 2026-11-08T18:17:53+05:30 | CHECK | section: B3 | prompt: accept
+- Pre-accept PASS: status reviewed, v3 unedited since review, no CONFIRM/GUIDE, Hypothetical label, ~278 words within 10% of 260, no E-ids used, X-07/X-12 unchanged PASS
+
+### #0275 | 2026-11-08T18:17:54+05:30 | STATE | section: B3 | prompt: accept
+- B3 accepted; final written; ledger B3 keys confirmed
+- files: a4-workspace/sections/B3/B3_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0276 | 2026-11-08T18:17:54+05:30 | DECISION | section: B3 | prompt: accept
+- Learner accepted B3 v3 incl. 95% threshold, 1 working day review and deliberately strict gap test
+
+### #0277 | 2026-11-08T18:17:54+05:30 | PROMPT | section: B3 | prompt: accept
+- accept B3 completed; B4 must reuse validation reviewer, Executive sponsor as incident owner and B3 release blocker; next B4
+
+### #0278 | 2026-11-08T18:20:15+05:30 | PROMPT | section: B4 | prompt: route
+- start: model routing advice for B4
+
+### #0279 | 2026-11-08T18:20:15+05:30 | PROMPT | section: B4 | prompt: route
+- end: B4 template R3 (judgement-heavy, builds on accepted B1-B3); current model Sonnet 5.5 covers R2; Fit SWITCH UP
+
+### #0280 | 2026-11-08T18:22:29+05:30 | PROMPT | section: B4 | prompt: tmpl
+- start: pre-filled template for B4
+
+### #0281 | 2026-11-08T18:22:38+05:30 | CHECK | section: B4 | prompt: tmpl
+- changed flagged stale hashes on accepted A files and expected v2 edits (B3 v2 already accepted); nothing reopened
+
+### #0282 | 2026-11-08T18:24:14+05:30 | READ | section: B4 | prompt: tmpl
+- Read spec b4, knowledge map, part-b L7-L9, context-pack autonomy/trifecta, part-c notification notes, A1/B2/B3 finals, ledger, evidence log, config
+
+### #0283 | 2026-11-08T18:24:15+05:30 | CHECK | section: B4 | prompt: tmpl
+- Verified CERT-In 6-hour reporting on official cert-in.org.in (Directions 28.04.2022, FAQs); DPDP 72h left VALIDATE (no personal data by design, C2 decides)
+
+### #0284 | 2026-11-08T18:24:15+05:30 | WRITE | section: B4 | prompt: tmpl
+- B4 v1 template and v2 copy written (~249 table words incl. CONFIRM markers, budget 240); 4 CONFIRM items; ledger B4 keys provisional; E9 added
+- files: a4-workspace/sections/B4/B4_v1-template.md;a4-workspace/sections/B4/B4_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0285 | 2026-11-08T18:24:15+05:30 | PROMPT | section: B4 | prompt: tmpl
+- end: B4 templated; next learner edits v2 then /prompt-review B4
+
+### #0286 | 2026-11-08T18:58:56+05:30 | PROMPT | section: B4 | prompt: review
+- start: review B4
+
+### #0287 | 2026-11-08T18:59:58+05:30 | REVIEW | section: B4 | prompt: review
+- v2 resolved all 4 CONFIRM items (Yes Tier 1, 150 placeholder reset at gate 2, 1 working day, 1 near-miss/month); rubric Full on all criteria; only gap budget 265 words > 264; 4 trim edits, no decision changed; flags: X-08 C1 must match agentic Tier 1, rehearsal twice yearly vs quarterly guidance
+
+### #0288 | 2026-11-08T18:59:58+05:30 | CHECK | section: B4 | prompt: review
+- X-07 PASS, X-08 PASS vs A1 (C1 pending); raci_incident, review_trigger_2, hitl_point, tco_b4 consistent; E9 used; DPDP VALIDATE for C2; ~253 words
+
+### #0289 | 2026-11-08T18:59:58+05:30 | WRITE | section: B4 | prompt: review
+- v3-reviewed and review report written; ledger B4 keys -> reviewed
+- files: a4-workspace/sections/B4/B4_v3-reviewed.md;a4-workspace/sections/B4/B4_review-report.md;a4-workspace/facts-ledger.md
+
+### #0290 | 2026-11-08T18:59:58+05:30 | PROMPT | section: B4 | prompt: review
+- end: B4 reviewed; next /prompt-accept B4
+
+### #0291 | 2026-11-08T19:17:11+05:30 | PROMPT | section: B4 | prompt: review
+- start: learner-requested edit, add two incident types to row 3 within budget
+
+### #0292 | 2026-11-08T19:17:48+05:30 | DECISION | section: B4 | prompt: review
+- Learner agreed two incident types for row 3: (a) wrong pack reaches LT; (b) financial data reaches anyone not entitled to it via model provider, prompt injection or agent access scope (learner reading: access-scope leak via agent-prepared pack)
+
+### #0293 | 2026-11-08T19:17:48+05:30 | WRITE | section: B4 | prompt: review
+- v3 row 3 incident types added, rows 1-4 trimmed to ~263 words (limit 264); report change row 5 and access-scope flag for C2/C4; ledger incident_stages updated
+- files: a4-workspace/sections/B4/B4_v3-reviewed.md;a4-workspace/sections/B4/B4_review-report.md;a4-workspace/facts-ledger.md
+
+### #0294 | 2026-11-08T19:17:48+05:30 | PROMPT | section: B4 | prompt: review
+- end: B4 still reviewed; next /prompt-accept B4
+
+### #0295 | 2026-11-08T19:17:55+05:30 | WRITE | section: B4 | prompt: review
+- ledger downstream_notes: C2/C4 must state access-scope control and provider retention/no-training terms (B4 type b)
+- files: a4-workspace/facts-ledger.md
+
+### #0296 | 2026-11-08T19:18:47+05:30 | PROMPT | section: B4 | prompt: accept
+- start: accept B4
+
+### #0297 | 2026-11-08T19:18:59+05:30 | CHECK | section: B4 | prompt: accept
+- Pre-accept PASS: status reviewed, v3 unedited since review, no CONFIRM/GUIDE, Hypothetical label, 263 words within 10% of 240, E9 exists, X-07 PASS, X-08 PASS vs A1 (C1 pending)
+
+### #0298 | 2026-11-08T19:18:59+05:30 | STATE | section: B4 | prompt: accept
+- B4 accepted; final written; ledger B4 keys confirmed
+- files: a4-workspace/sections/B4/B4_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0299 | 2026-11-08T19:18:59+05:30 | DECISION | section: B4 | prompt: accept
+- Learner accepted B4 v3 incl. Yes Tier 1, two incident types, twice-yearly rehearsal
+
+### #0300 | 2026-11-08T19:18:59+05:30 | PROMPT | section: B4 | prompt: accept
+- accept B4 completed; C1 must match agentic Tier 1 (X-08); C2/C4 must state access-scope and provider terms; next C1
+

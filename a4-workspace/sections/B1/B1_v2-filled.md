@@ -9,14 +9,14 @@ generated: 2026-11-07T18:30:00+05:30
 
 > [GUIDE] Budget: about 40 words per principle (+/-30%, so 28-52 a row, both columns together). Earns marks: each principle becomes an obligation specific to this agent, with a test someone could actually run or inspect, and a consequence if it fails. Full-credit descriptor: accountability, transparency, explainability and fairness each become testable obligations. Partial: principles listed but controls generic or proof weak. Low: ethical slogans. Edit the two right-hand columns only. Resolve every [CONFIRM].
 
-**Design obligations for the Leadership-team evidence-pack research agent (all obligations, tests and thresholds are proposed controls, Hypothetical; NIST AI RMF used as a guide, no certification sought, Ref E8) [CONFIRM: NIST AI RMF as the guide, or none]**
+**Design obligations for the Leadership-team evidence-pack research agent (all obligations, tests and thresholds are proposed controls, Hypothetical; NIST AI RMF used as a guide, no certification sought, Ref E8)**
 
 | Taught principle | Specific design obligation for this initiative | Evidence / test demonstrating the obligation is met |
 |---|---|---|
-| Accountability | Executive sponsor (Head of Finance) owns agent outcomes [CONFIRM: this role as the single accountable owner]; the approving manager is named on each pack; the agent holds no release permission. | Quarterly audit: 100% of LT packs show a named approver; access log shows zero agent releases. A missing name blocks release. |
-| Transparency | Every pack must carry an AI-assisted label and a source register listing each allowlisted source, extract date and query used. | Validation reviewer traces 20 sampled claims per pilot pack, then quarterly [CONFIRM: sample size]: 100% allowlisted; any miss blocks release. |
+| Accountability | Executive sponsor (Head of Finance) is the single accountable owner of agent outcomes; the approving manager is named on each pack; the agent holds no release permission. | Quarterly audit: 100% of LT packs show a named approver; access log shows zero agent releases. A missing name blocks release. |
+| Transparency | Every pack must carry an AI-assisted label and a source register listing each allowlisted source, extract date and query used. | Validation reviewer traces 20 sampled claims per pilot pack, then quarterly: 100% allowlisted; any miss blocks release. |
 | Explainability | Each recommendation must state, in plain language, its main supporting evidence, contrary evidence, confidence level and evidence gaps; every figure links to its deterministic query. | Before go-live, the validation reviewer reproduces all figures in 3 pilot packs from saved queries; any mismatch blocks sign-off. |
-| Fairness | Agent makes no person-level decisions, holds no HR data and never informs which roles are cut [CONFIRM: true for your design]. Evidence quality must not favour any market region or source type. | Quarterly citation accuracy by region and source type: gap at most 10 percentage points [CONFIRM: groupings and threshold], else release pauses. Small sample: indicative only. |
+| Fairness | Agent makes no person-level decisions, holds no HR data and never informs which roles are cut. Evidence quality must not favour any sector (power, mining, agri-machinery) or region (India, Indonesia, Europe, Americas); China is excluded as no sources are accessible. | Quarterly citation accuracy by sector and region, anonymised: gap at most 10 percentage points, else release pauses. Small sample: indicative only; China not assessed. |
 
 ## Why this draft (guide - removed at compile)
 > [GUIDE]
@@ -31,8 +31,8 @@ generated: 2026-11-07T18:30:00+05:30
 
 ## To confirm before you save (guide)
 > [GUIDE]
-> 1. **Framework** - Recommended: NIST AI RMF as a guide, no certification.
-> 2. **Accountable owner** - Recommended: Executive sponsor (Head of Finance), matching A3. It must be one role, and it must appear in B2.
-> 3. **Sample size** - Recommended: 20 claims per pilot pack and per quarter. Lower it if reviewer time is short, but keep a stated number.
-> 4. **No HR data and no role selection** - Recommended: keep as written, if true. Only you can say whether any source in the three support functions holds person-level HR data. If one does, tell me: this affects B3, C1 and C2.
-> 5. **Fairness groupings and threshold** - Recommended: market region and source type, 10 percentage points. Name the groupings your packs actually cover, and keep them anonymised.
+> 1. **Framework** - Recommended: NIST AI RMF as a guide, no certification. -- This has been confirmed basis the current personal research.
+> 2. **Accountable owner** - Recommended: Executive sponsor (Head of Finance), matching A3.
+> 3. **Sample size** - Recommended: 20 claims per pilot pack and per quarter.
+> 4. **No HR data and no role selection** - Recommended: keep as written.
+> 5. **Fairness groupings and threshold** - Recommended: market region and source type, 10 percentage points. Name the groupings your packs actually cover, and keep them anonymised. The groups would cover the different sectors of the industrial business, such as power, mining, and agri-machinery operations, ensuring that the agent's outputs do not disproportionately favor one sector over another. The strategy samples will also be spread across India, Indonesia, Europe and the Americas, to ensure that the agent's recommendations are fair and balanced across different geographic regions. China is excluded as the agent does not have access to any sources from that region, and therefore cannot provide a fair assessment of its market.
