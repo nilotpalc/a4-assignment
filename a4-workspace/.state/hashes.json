@@ -19,7 +19,7 @@
  "a4-workspace/sections/A2-3/A2-3_v1-template.md": "110203ac6a02e832",
  "a4-workspace/sections/A2-3/A2-3_v2-filled.md": "e1a626d760af8b5d",
  "a4-workspace/sections/A2-1/A2-1_v2-filled.md": "1469629878ee0e3a",
- "a4-workspace/facts-ledger.md": "2ffaaf17339a1653",
+ "a4-workspace/facts-ledger.md": "87086ebaa188623f",
  "a4-workspace/sections/A2-1/A2-1_v3-reviewed.md": "5aad44ba8ce2fc50",
  "a4-workspace/sections/A2-1/A2-1_review-report.md": "0a9d199445472b47",
  "a4-workspace/sections/A2-1/A2-1_final.md": "13c148beae69267c",
@@ -28,7 +28,7 @@
  "a4-workspace/sections/A2-3/A2-3_final.md": "fb46a088ea10e9b3",
  "a4-workspace/sections/A3/A3_v1-template.md": "68d2b3ceba219796",
  "a4-workspace/sections/A3/A3_v2-filled.md": "68d2b3ceba219796",
- "a4-workspace/evidence/evidence-log.md": "1330f525f3629c44",
+ "a4-workspace/evidence/evidence-log.md": "c86b9c910172b4d6",
  "a4-workspace/sections/A3/A3_v3-reviewed.md": "0a13ed995eee38a7",
  "a4-workspace/sections/A3/A3_review-report.md": "f7ab6e890848be48",
  "a4-workspace/sections/A3/A3_final.md": "ab9ed33d9a3bf705",
@@ -57,5 +57,7 @@
  "a4-workspace/sections/B4/B4_v2-filled.md": "fe7160c7208fbf97",
  "a4-workspace/sections/B4/B4_v3-reviewed.md": "8b3b4f59393c6d23",
  "a4-workspace/sections/B4/B4_review-report.md": "b0c3d6f4a2b6ba1e",
- "a4-workspace/sections/B4/B4_final.md": "d4e40b6a96529980"
+ "a4-workspace/sections/B4/B4_final.md": "d4e40b6a96529980",
+ "a4-workspace/sections/C1/C1_v1-template.md": "4099a05739cc4b7e",
+ "a4-workspace/sections/C1/C1_v2-filled.md": "4099a05739cc4b7e"
 }

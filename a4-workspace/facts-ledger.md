@@ -103,3 +103,8 @@ _Filled by the agent from accepted/reviewed sections. Keys are defined in .githu
 | notification_clock_status | CERT-In 6 hours for Annexure I incidents: verified 2026-11-08 on cert-in.org.in (E9), conditional; DPDP 72h: VALIDATE in C2 (no personal data by design) | suggested | B4 | confirmed |
 | culture_action | Hands-on training before access (trace a planted unsupported claim) plus near-miss log of claims struck before release; training already in tco_b4 | suggested | B4 | confirmed |
 | culture_metric | 100% trained before access; >= 1 near-miss logged per month in first quarter | suggested | B4 | confirmed |
+| reg_india | Limited: no customer/HR data; staff names in logs only; DPDP Rules notified, most obligations 13 May 2027 (VALIDATE, E10); CERT-In 6h in force (E9); IR Code commenced 21 Nov 2025, headcount benefit only (E12) | suggested | C1 | provisional |
+| reg_crossborder | Possibly - validate: depends on EU/US-based LT members or users [CONFIRM]; EU AI Act deployer, not high-risk; Annex III delayed to 2 Dec 2027 (E11, VALIDATE); US not triggered (per notes) | suggested | C1 | provisional |
+| reg_sector | None identified (not RBI/SEBI/IRDAI-regulated); SEBI insider-trading question only if parent listed [CONFIRM] | suggested | C1 | provisional |
+| validation_items | Primary-source check of DPDP 13 May 2027, AI Act 2 Dec 2027, IR Code 21 Nov 2025 and its Rules; EU/US user location; listed status | suggested | C1 | provisional |
+| reviewer_for_legal | [CONFIRM] default Legal counsel (India); company secretary for listed-entity question; HR legal for IR Code | suggested | C1 | provisional |

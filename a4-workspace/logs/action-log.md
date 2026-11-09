@@ -984,3 +984,34 @@ _One entry per action. Written by a4_log.py. Never edit past entries._
 ### #0300 | 2026-11-08T19:18:59+05:30 | PROMPT | section: B4 | prompt: accept
 - accept B4 completed; C1 must match agentic Tier 1 (X-08); C2/C4 must state access-scope and provider terms; next C1
 
+### #0301 | 2026-11-09T20:45:17+05:30 | PROMPT | section: - | prompt: resume
+- resume started
+
+### #0302 | 2026-11-09T20:45:23+05:30 | PROMPT | section: - | prompt: resume
+- end: resume summary shown; next /prompt-tmpl C1
+
+### #0303 | 2026-11-09T20:46:09+05:30 | PROMPT | section: C1 | prompt: route
+- start: route C1
+
+### #0304 | 2026-11-09T20:46:16+05:30 | PROMPT | section: C1 | prompt: route
+- end: C1 tmpl advised R3 (default R2, +1 for dependence on 3+ accepted sections); current Sonnet 5.5 covers R2; SWITCH UP offered
+
+### #0305 | 2026-11-09T20:47:31+05:30 | PROMPT | section: C1 | prompt: tmpl
+- Prompt tmpl started for C1
+
+### #0306 | 2026-11-09T20:47:43+05:30 | STATE | section: C1 | prompt: tmpl
+- changed flagged stale hashes on accepted files; git shows no accepted final modified; nothing reopened
+
+### #0307 | 2026-11-09T20:49:10+05:30 | READ | section: C1 | prompt: tmpl
+- Read spec c1, brief, part-c notes, context pack, ledger, evidence log, A1/B4 finals
+
+### #0308 | 2026-11-09T20:49:10+05:30 | CHECK | section: C1 | prompt: tmpl
+- Web check (secondary sources, topic words only): DPDP Rules notified Nov 2025, phased 12/18 months; EU AI Act Omnibus Reg 2026/1744 delays Annex III to 2 Dec 2027; IR Code commenced 21 Nov 2025; primary-source check still VALIDATE
+
+### #0309 | 2026-11-09T20:50:42+05:30 | WRITE | section: C1 | prompt: tmpl
+- C1 template written (217 table words, 3 CONFIRM items, dates VALIDATE); E10-E12 and C1 ledger keys added provisional
+- files: a4-workspace/sections/C1/C1_v1-template.md;a4-workspace/sections/C1/C1_v2-filled.md;a4-workspace/evidence/evidence-log.md;a4-workspace/facts-ledger.md
+
+### #0310 | 2026-11-09T20:50:42+05:30 | PROMPT | section: C1 | prompt: tmpl
+- end: C1 templated; next /prompt-review C1 after learner saves v2
+

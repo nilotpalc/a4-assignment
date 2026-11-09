@@ -16,7 +16,7 @@ Status flow: not_started -> templated -> filled -> reviewed -> accepted (reopene
 | B2 | Governance, RACI, three lines of defence | 8 | accepted | a4-workspace/sections/B2/B2_final.md | 2026-11-08 17:52 |
 | B3 | Ethics review, fairness, human oversight | 8 | accepted | a4-workspace/sections/B3/B3_final.md | 2026-11-08 18:17 |
 | B4 | Autonomy, incident response, culture | 7 | accepted | a4-workspace/sections/B4/B4_final.md | 2026-11-08 19:18 |
-| C1 | Regulatory applicability map | 8 | not_started | - | - |
+| C1 | Regulatory applicability map | 8 | templated | a4-workspace/sections/C1/C1_v2-filled.md | 2026-11-09 20:50 |
 | C2 | Data, privacy, cross-border design | 6 | not_started | - | - |
 | C3 | Build vs buy vs partner | 7 | not_started | - | - |
 | C4 | Vendor safeguards and integrated go / no-go | 9 | not_started | - | - |
