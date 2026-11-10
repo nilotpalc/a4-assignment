@@ -1015,3 +1015,360 @@ _One entry per action. Written by a4_log.py. Never edit past entries._
 ### #0310 | 2026-11-09T20:50:42+05:30 | PROMPT | section: C1 | prompt: tmpl
 - end: C1 templated; next /prompt-review C1 after learner saves v2
 
+### #0311 | 2026-11-10T15:13:44+05:30 | DECISION | section: C1 | prompt: -
+- Learner resolved 3 CONFIRMs: legal reviewer=Legal counsel (India); row 2 stays 'Possibly - validate' (LT has EU/US reps, board may use tool); row 3 parent listed in Europe/US bourses, validate with company secretary and legal counsel
+
+### #0312 | 2026-11-10T15:13:44+05:30 | WRITE | section: C1 | prompt: -
+- Applied the three CONFIRM answers into C1_v2-filled.md (rows 1-3)
+- files: a4-workspace/sections/C1/C1_v2-filled.md
+
+### #0313 | 2026-11-10T15:20:51+05:30 | DECISION | section: C1 | prompt: -
+- Learner supplied row 3 evidence: parent listed in EU/US so those insider-trading rules apply, existing controls cover India staff, SEBI PIT not directly applicable (no Indian entity listed)
+
+### #0314 | 2026-11-10T15:20:52+05:30 | WRITE | section: C1 | prompt: -
+- Reworded C1 row 3 obligation and implication cells
+- files: a4-workspace/sections/C1/C1_v2-filled.md
+
+### #0315 | 2026-11-10T15:22:55+05:30 | DECISION | section: C1 | prompt: -
+- Learner confirmed org controls: insider list, training, off-boarding traceability
+
+### #0316 | 2026-11-10T15:22:56+05:30 | WRITE | section: C1 | prompt: -
+- Row 3 updated with insider-list org evidence
+- files: a4-workspace/sections/C1/C1_v2-filled.md
+
+### #0317 | 2026-11-10T15:24:20+05:30 | ERROR | section: C1 | prompt: -
+- meity.gov.in returned HTTP 403; DPDP gazette date not verified, used learner fallback wording mid-May 2027
+
+### #0318 | 2026-11-10T15:24:20+05:30 | WRITE | section: C1 | prompt: -
+- Updated C1 dates: DPDP mid-May 2027 + 14 Nov 2026 consent managers; EU Reg 2026/1744 in force 27 Jul 2026; IR Code 21 Nov 2025 with rules caveat (learner-supplied, official sources not independently verified)
+- files: a4-workspace/sections/C1/C1_v2-filled.md
+
+### #0319 | 2026-11-10T15:26:55+05:30 | PROMPT | section: C1 | prompt: review
+- start: review C1
+
+### #0320 | 2026-11-10T15:27:13+05:30 | STATE | section: C1 | prompt: review
+- changed: C1 v2 edited by learner (all 3 rows); other flags are known stale hashes, nothing reopened
+
+### #0321 | 2026-11-10T15:29:51+05:30 | CHECK | section: C1 | prompt: review
+- Primary check: PIB verified DPDP notification 14 Nov 2025 + 18-month phase-in; EUR-Lex empty, labour.gov.in/pib.gov.in 403 -> E11/E12 VALIDATE; X-08 PASS, X-14 PASS after E13, X-16 PASS 241 words; X-09/X-10 pending C2/C3
+
+### #0322 | 2026-11-10T15:29:51+05:30 | REVIEW | section: C1 | prompt: review
+- Review done: 8 edits, 1 CONFIRM (board access), 2 judgement flags; band Partial-Full -> Full if VALIDATE cleared (est. 5-6 -> 6-7 of 8)
+
+### #0323 | 2026-11-10T15:29:51+05:30 | WRITE | section: C1 | prompt: review
+- v3, report, ledger C1 keys reviewed, evidence E10-E12 updated, E13 added
+- files: a4-workspace/sections/C1/C1_v3-reviewed.md;a4-workspace/sections/C1/C1_review-report.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0324 | 2026-11-10T15:29:51+05:30 | PROMPT | section: C1 | prompt: review
+- end: C1 reviewed; next /prompt-accept C1
+
+### #0325 | 2026-11-10T15:45:31+05:30 | CLARIFY | section: C1 | prompt: review
+- Q: board members released packs only, no agent access? A: confirmed by learner
+
+### #0326 | 2026-11-10T15:45:31+05:30 | DECISION | section: C1 | prompt: review
+- Board members receive released packs only, no direct agent access; CONFIRM resolved in v3; judgement flag closed
+
+### #0327 | 2026-11-10T15:45:31+05:30 | WRITE | section: C1 | prompt: review
+- v3 row 2 and ledger reg_crossborder/validation_items updated
+- files: a4-workspace/sections/C1/C1_v3-reviewed.md;a4-workspace/facts-ledger.md
+
+### #0328 | 2026-11-10T15:46:07+05:30 | PROMPT | section: C1 | prompt: accept
+- start: accept C1
+
+### #0329 | 2026-11-10T15:46:09+05:30 | CHECK | section: C1 | prompt: accept
+- Pre-accept PASS: status reviewed, no CONFIRM/GUIDE, Org evidence/Ref labels present, 239 words within 242, E9-E13 exist, X-08 PASS, X-14 PASS; 4 VALIDATE items carried to submission check
+
+### #0330 | 2026-11-10T15:46:09+05:30 | STATE | section: C1 | prompt: accept
+- C1 accepted; final written; ledger C1 keys confirmed
+- files: a4-workspace/sections/C1/C1_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0331 | 2026-11-10T15:46:09+05:30 | DECISION | section: C1 | prompt: accept
+- Learner accepted C1 v3 incl. EU/US LT users, provider+deployer role, insider-list control, board released packs only
+
+### #0332 | 2026-11-10T15:46:09+05:30 | PROMPT | section: C1 | prompt: accept
+- end: C1 accepted; C2 must match no-personal-data and DPDP 72h VALIDATE (X-09); C3 must match provider role (X-10); next C2
+
+### #0333 | 2026-11-10T15:46:34+05:30 | PROMPT | section: C1 | prompt: review
+- start: review C1 requested after accept
+
+### #0334 | 2026-11-10T15:46:41+05:30 | PROMPT | section: C1 | prompt: review
+- end: not re-run; C1 accepted, final and v3 unchanged since accept (v2 flag is the already-reviewed learner edit); offered /prompt-reopen C1
+
+### #0335 | 2026-11-10T15:47:22+05:30 | PROMPT | section: C1 | prompt: reopen
+- start: reopen C1
+
+### #0336 | 2026-11-10T15:47:22+05:30 | DECISION | section: C1 | prompt: reopen
+- Learner chose to reopen C1 for further edits (no specific reason given)
+
+### #0337 | 2026-11-10T15:47:23+05:30 | WRITE | section: C1 | prompt: reopen
+- Archived final and earlier v2 as .bak-20261110-154722; new v2 from final; C1 ledger keys provisional
+- files: a4-workspace/sections/C1/C1_final.bak-20261110-154722.md;a4-workspace/sections/C1/C1_v2-filled.bak-20261110-154722.md;a4-workspace/sections/C1/C1_v2-filled.md;a4-workspace/facts-ledger.md
+
+### #0338 | 2026-11-10T15:47:24+05:30 | STATE | section: C1 | prompt: reopen
+- C1 reopened; dependents needing re-check: B4 (accepted, X-08), C2 and C4 (not started, will read C1)
+
+### #0339 | 2026-11-10T15:47:24+05:30 | PROMPT | section: C1 | prompt: reopen
+- end: C1 reopened; next edit v2 then /prompt-review C1
+
+### #0340 | 2026-11-10T15:49:01+05:30 | PROMPT | section: C1 | prompt: review
+- start: review C1 after reopen
+
+### #0341 | 2026-11-10T15:49:07+05:30 | CHECK | section: C1 | prompt: review
+- v2 identical to archived final (only version line); no learner edits detected
+
+### #0342 | 2026-11-10T15:49:48+05:30 | CLARIFY | section: C1 | prompt: review
+- Q: v2 unchanged - re-accept, edit, or fresh review? A: fresh review anyway
+
+### #0343 | 2026-11-10T15:50:27+05:30 | CHECK | section: C1 | prompt: review
+- Second review checks: no CONFIRM/GUIDE, 242 words at limit, E9-E13 exist, X-08/X-14/X-16/X-17 PASS; X-09/X-10 pending C2/C3
+
+### #0344 | 2026-11-10T15:50:27+05:30 | REVIEW | section: C1 | prompt: review
+- Second review (v2 unchanged): 3 edits, 0 CONFIRM, 1 judgement flag (EU applicability 'Likely yes' needs counsel); band Full if VALIDATE cleared, est. 6-7 of 8
+
+### #0345 | 2026-11-10T15:50:27+05:30 | WRITE | section: C1 | prompt: review
+- v3 and review report rewritten; ledger C1 keys reviewed (reg_crossborder Likely yes; consent-manager date dropped)
+- files: a4-workspace/sections/C1/C1_v3-reviewed.md;a4-workspace/sections/C1/C1_review-report.md;a4-workspace/facts-ledger.md
+
+### #0346 | 2026-11-10T15:50:28+05:30 | PROMPT | section: C1 | prompt: review
+- end: C1 reviewed; next /prompt-accept C1
+
+### #0347 | 2026-11-10T15:51:15+05:30 | PROMPT | section: C1 | prompt: accept
+- start: accept C1 (after reopen)
+
+### #0348 | 2026-11-10T15:51:17+05:30 | CHECK | section: C1 | prompt: accept
+- Pre-accept PASS: reviewed, v3 unedited, no CONFIRM/GUIDE, 242 words at limit, E9-E13 exist, labels present, X-08 PASS
+
+### #0349 | 2026-11-10T15:51:17+05:30 | STATE | section: C1 | prompt: accept
+- C1 re-accepted; final rewritten (prior final archived at reopen); ledger C1 keys confirmed
+- files: a4-workspace/sections/C1/C1_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0350 | 2026-11-10T15:51:17+05:30 | DECISION | section: C1 | prompt: accept
+- Learner accepted second-review C1 incl. EU AI Act 'Likely yes, limited (VALIDATE)'
+
+### #0351 | 2026-11-10T15:51:17+05:30 | PROMPT | section: C1 | prompt: accept
+- end: C1 accepted; B4 X-08 still PASS; C2/C4 to follow C1; next C2
+
+### #0352 | 2026-11-10T15:52:25+05:30 | PROMPT | section: C2 | prompt: route
+- start: route C2 (typed /promot-route, run as route)
+
+### #0353 | 2026-11-10T15:52:26+05:30 | PROMPT | section: C2 | prompt: route
+- end: C2 tmpl advised R3 (default R2, +1: depends on C1, B4, A2.2 and downstream notes); current Opus 5.5 covers R3; Fit OK
+
+### #0354 | 2026-11-10T16:00:17+05:30 | PROMPT | section: C2 | prompt: tmpl
+- Started prompt-tmpl for C2
+
+### #0355 | 2026-11-10T16:00:27+05:30 | STATE | section: C2 | prompt: tmpl
+- changed flagged known stale hashes on accepted files; git shows no committed final modified; nothing reopened
+
+### #0356 | 2026-11-10T16:01:10+05:30 | READ | section: C2 | prompt: tmpl
+- Read spec c2, knowledge map, part-c DPDP/cross-border L10-25, context-pack, ledger, evidence log, C1 final, A2.2/A4/B4 finals (grep)
+
+### #0357 | 2026-11-10T16:01:10+05:30 | CHECK | section: C2 | prompt: tmpl
+- Web check: DPDP Rule 7 breach report 72h, from ~13 May 2027 (secondary sources only, VALIDATE on Gazette); s16 transfer restriction not verified, VALIDATE
+
+### #0358 | 2026-11-10T16:01:49+05:30 | WRITE | section: C2 | prompt: tmpl
+- C2 v1 template and v2 copy written (4 rows, 5 CONFIRM); ledger C2 keys added provisional; E10 extended to C2
+- files: a4-workspace/sections/C2/C2_v1-template.md;a4-workspace/sections/C2/C2_v2-filled.md;a4-workspace/facts-ledger.md;a4-workspace/evidence/evidence-log.md
+
+### #0359 | 2026-11-10T16:01:49+05:30 | PROMPT | section: C2 | prompt: tmpl
+- end: C2 templated; key decisions: internal vs external model at gateway, cross-border tick; next /prompt-review C2
+
+### #0360 | 2026-11-10T16:01:55+05:30 | NOTE | section: C2 | prompt: tmpl
+- Correction to #0358: C2 template has 4 CONFIRM items, not 5
+
+### #0361 | 2026-11-10T18:16:00+05:30 | PROMPT | section: C2 | prompt: review
+- start: review C2
+
+### #0362 | 2026-11-10T18:17:23+05:30 | STATE | section: C2 | prompt: review
+- changed: C2 v2 edited by learner (rows 2-4, all 4 CONFIRM resolved); other flags known stale hashes, nothing reopened
+
+### #0363 | 2026-11-10T18:17:23+05:30 | DECISION | section: C2 | prompt: review
+- Learner: external frontier models via Microsoft Azure EU region; zero retention negotiated; logs 12 months; cross-border Yes
+
+### #0364 | 2026-11-10T18:17:23+05:30 | CHECK | section: C2 | prompt: review
+- X-09 PASS vs C1; X-07 PASS; X-14 E14 added, E10 reused; no CONFIRM/GUIDE; 229 words vs ~200 guide (within 10% excluding checkbox labels)
+
+### #0365 | 2026-11-10T18:17:23+05:30 | REVIEW | section: C2 | prompt: review
+- Review done: 5 edits, 0 CONFIRM, 1 judgement flag (zero-retention claim to confirm in contract/config); band Partial -> Full, est. 5-6 of 6
+
+### #0366 | 2026-11-10T18:17:24+05:30 | WRITE | section: C2 | prompt: review
+- v3, review report, E14, ledger C2 keys reviewed
+- files: a4-workspace/sections/C2/C2_v3-reviewed.md;a4-workspace/sections/C2/C2_review-report.md;a4-workspace/evidence/evidence-log.md;a4-workspace/facts-ledger.md
+
+### #0367 | 2026-11-10T18:17:24+05:30 | PROMPT | section: C2 | prompt: review
+- end: C2 reviewed; C3 must name Azure model provider as external dependency (X-10); next /prompt-accept C2
+
+### #0368 | 2026-11-10T18:22:53+05:30 | NOTE | section: C2 | prompt: -
+- Explained gateway-log (12 months) vs provider zero-retention split; no files changed
+
+### #0369 | 2026-11-10T18:25:10+05:30 | WRITE | section: C2 | prompt: review
+- Learner-requested edit: row 2 now says gateway logs held in the organisation's tenant; ledger data_flow and review report updated
+- files: a4-workspace/sections/C2/C2_v3-reviewed.md;a4-workspace/sections/C2/C2_review-report.md;a4-workspace/facts-ledger.md
+
+### #0370 | 2026-11-10T18:28:45+05:30 | DECISION | section: C2 | prompt: -
+- Learner: provider zero retention treated as a hypothetical assumption for submission (contract cannot be cross-checked for a course project)
+
+### #0371 | 2026-11-10T18:28:45+05:30 | WRITE | section: C2 | prompt: -
+- Relabelled zero retention Hypothetical in v3 row 3, E14, ledger control_2 and review report
+- files: a4-workspace/sections/C2/C2_v3-reviewed.md;a4-workspace/evidence/evidence-log.md;a4-workspace/facts-ledger.md;a4-workspace/sections/C2/C2_review-report.md
+
+### #0372 | 2026-11-10T18:29:49+05:30 | PROMPT | section: C2 | prompt: accept
+- start: accept C2
+
+### #0373 | 2026-11-10T18:29:59+05:30 | CHECK | section: C2 | prompt: accept
+- Pre-accept PASS: reviewed, v3 unedited since agent write, no CONFIRM/GUIDE, labels present, 236 words (no strict budget, ~200 guide), E10/E13/E14 exist, X-09 PASS vs C1
+
+### #0374 | 2026-11-10T18:29:59+05:30 | STATE | section: C2 | prompt: accept
+- C2 accepted; final written; 7 ledger C2 keys confirmed
+- files: a4-workspace/sections/C2/C2_final.md;a4-workspace/facts-ledger.md;a4-workspace/state.md
+
+### #0375 | 2026-11-10T18:30:00+05:30 | DECISION | section: C2 | prompt: accept
+- Learner accepted C2 v3 incl. external Azure EU model, cross-border Yes, zero retention as hypothetical assumption
+
+### #0376 | 2026-11-10T18:30:00+05:30 | PROMPT | section: C2 | prompt: accept
+- end: C2 accepted; C3 must name Azure model provider as external dependency (X-10); C4 must repeat C2 data-rights terms (X-09, X-13); next C3
+
+### #0377 | 2026-11-10T18:34:23+05:30 | PROMPT | section: C3 | prompt: route
+- start: model-routing advice for C3
+
+### #0378 | 2026-11-10T18:34:23+05:30 | PROMPT | section: C3 | prompt: route
+- end: C3 prompt-tmpl tier R3 (default, no signal); model claude-opus-5-5 covers R3; Fit OK
+
+### #0379 | 2026-11-10T18:35:13+05:30 | PROMPT | section: C3 | prompt: tmpl
+- start: template for C3
+
+### #0380 | 2026-11-10T18:37:15+05:30 | DECISION | section: C3 | prompt: tmpl
+- Pre-filled Build (narrow: workflow layer in-house, rented models via Azure/gateway) from intake sourcing_preference; moat Partial; reversal = delivery capability at gate 1; all three left as CONFIRM; Judgement flag recorded (course moat rule vs Build)
+
+### #0381 | 2026-11-10T18:37:15+05:30 | WRITE | section: C3 | prompt: tmpl
+- Wrote C3 v1-template and v2-filled (6 CONFIRM; decision table within 180-word budget); ledger +7 provisional keys (suggested); evidence log: C3 added to Used-in of E5, E13, E14; no new E-id, no new legal claim
+- files: a4-workspace/sections/C3/C3_v1-template.md,a4-workspace/sections/C3/C3_v2-filled.md,a4-workspace/facts-ledger.md,a4-workspace/evidence/evidence-log.md
+- detail: changed: known stale hashes only, nothing reopened; upstream C1, C2, A2.2 all accepted
+
+### #0382 | 2026-11-10T18:37:15+05:30 | PROMPT | section: C3 | prompt: tmpl
+- end: C3 templated; next /prompt-review C3
+
+### #0383 | 2026-11-10T18:50:15+05:30 | PROMPT | section: C3 | prompt: note
+- start: learner asked to apply MLOps-light rewording to C3 v2 Build and Partner rows
+
+### #0384 | 2026-11-10T18:50:29+05:30 | DECISION | section: C3 | prompt: note
+- Learner approved rewording: design is MLOps-light (no training, rented models, gateway serving) and data-engineering heavy (buckets 6 + integration about 64% of TCO); Build constraint now small team for data-engineering load + evaluation-routine continuity; Partner benefit now data-engineering and evaluation capacity
+
+### #0385 | 2026-11-10T18:50:29+05:30 | WRITE | section: C3 | prompt: note
+- Edited C3 v2-filled at learner's request (Build constraint, Partner benefit, two guide lines); ledger src_build_fit and src_partner_fit updated (provisional); v1-template left as generated; status stays templated; 6 CONFIRM remain
+- files: a4-workspace/sections/C3/C3_v2-filled.md,a4-workspace/facts-ledger.md
+
+### #0386 | 2026-11-10T18:50:29+05:30 | PROMPT | section: C3 | prompt: note
+- end: rewording applied
+
+### #0387 | 2026-11-10T19:08:40+05:30 | DECISION | section: C3 | prompt: -
+- Learner resolved all 6 C3 CONFIRMs: team size kept, Build fit High, Buy no tool assessed, Build narrowly (accepts cost/containment as drivers, moat partial), moat Partial, reversal = delivery capability at gate 1
+
+### #0388 | 2026-11-10T19:08:40+05:30 | WRITE | section: C3 | prompt: -
+- Removed resolved CONFIRM markers from C3 v2-filled; replaced compute sentence with moat-acknowledgement in row 1
+- files: a4-workspace/sections/C3/C3_v2-filled.md
+
+### #0389 | 2026-11-10T19:10:17+05:30 | PROMPT | section: C3 | prompt: review
+- start: review C3
+
+### #0390 | 2026-11-10T19:11:14+05:30 | REVIEW | section: C3 | prompt: review
+- C3 reviewed: learner resolved all 6 CONFIRM and added a containment-and-cost sentence; 5 edits (duplicate sentence removed, tightening, first-year inference wording, Estimate label, guides stripped); decision table 209 -> 186 words; rubric Full on all three criteria (indicative 6-7 of 7); no decision changed; 3 judgement flags
+
+### #0391 | 2026-11-10T19:11:15+05:30 | CHECK | section: C3 | prompt: review
+- X-10 PASS, X-07 PASS, X-15 PASS, X-16 PASS (within tolerance), X-17 PASS; figures match ledger; no legal claim; no new E-id; C4 must name Azure and gateway as external dependencies and carry the gate 1 switch-to-Partner rule
+
+### #0392 | 2026-11-10T19:11:15+05:30 | WRITE | section: C3 | prompt: review
+- Wrote C3 v3-reviewed and review report; ledger C3 keys -> reviewed; state reviewed
+- files: a4-workspace/sections/C3/C3_v3-reviewed.md,a4-workspace/sections/C3/C3_review-report.md,a4-workspace/facts-ledger.md
+
+### #0393 | 2026-11-10T19:11:15+05:30 | PROMPT | section: C3 | prompt: review
+- end: C3 reviewed; next /prompt-accept C3
+
+### #0394 | 2026-11-10T19:16:26+05:30 | WRITE | section: C3 | prompt: note
+- Learner-requested wording change in C3 v3 row 1: 'owned capacity could not pay back' -> 'far too little to justify owning hardware'; report row 6 added; ledger compute_rationale aligned; status stays reviewed
+- files: a4-workspace/sections/C3/C3_v3-reviewed.md,a4-workspace/sections/C3/C3_review-report.md,a4-workspace/facts-ledger.md
+
+### #0395 | 2026-11-10T19:17:41+05:30 | PROMPT | section: C3 | prompt: accept
+- start: accept C3
+
+### #0396 | 2026-11-10T19:17:56+05:30 | CHECK | section: C3 | prompt: accept
+- Pre-accept PASS: status reviewed, v3 unedited since agent write, no CONFIRM/GUIDE, 3 options High/Low/Medium, moat Partial ticked, 187 words (limit 180, tolerance 198), labels present, E5/E13/E14 exist, figures match ledger, X-10 PASS vs A2.2, X-07 PASS
+
+### #0397 | 2026-11-10T19:17:56+05:30 | STATE | section: C3 | prompt: accept
+- C3 accepted: final written from v3-reviewed; 7 ledger keys and sourcing_preference -> confirmed; config sourcing_preference updated
+- files: a4-workspace/sections/C3/C3_final.md,a4-workspace/facts-ledger.md,a4-workspace/config.md
+
+### #0398 | 2026-11-10T19:17:56+05:30 | DECISION | section: C3 | prompt: accept
+- Learner accepted C3: Build narrowly, moat Partial, reversal dependency delivery capability at gate 1 (switch Build phase to Partner before USD 102k release)
+
+### #0399 | 2026-11-10T19:17:57+05:30 | PROMPT | section: C3 | prompt: accept
+- end: C3 accepted; next C4
+
+### #0400 | 2026-11-10T19:18:52+05:30 | PROMPT | section: C4 | prompt: route
+- start: advise model for C4
+
+### #0401 | 2026-11-10T19:18:52+05:30 | PROMPT | section: C4 | prompt: route
+- end: Sonnet 5.5 (R2) vs C4 tmpl R3 -> SWITCH UP advised
+
+### #0402 | 2026-11-10T19:20:44+05:30 | PROMPT | section: C4 | prompt: tmpl
+- start: template C4 (model claude-fable-5-2)
+
+### #0403 | 2026-11-10T19:23:28+05:30 | CHECK | section: C4 | prompt: tmpl
+- session start: changed shows known stale hashes only, nothing reopened; upstream C1-C3, A3, A4, B2-B4 all accepted
+
+### #0404 | 2026-11-10T19:23:28+05:30 | DECISION | section: C4 | prompt: tmpl
+- Template choices: safeguards applied to external dependencies (Microsoft Azure via AI CoE gateway, subscribed-source licences) since build is in-house; decision pre-filled Conditional Go = A4; no new legal claim, no new E-id (reuses E5, E6, E7, E9, E13, E14)
+- detail: Judgement flags raised: (1) A3 pilot pack 1 uses live data at week 6 while C2 checks retention settings before gate 2 - draft confirms safeguard 1 before pack 1; (2) subscribed-source licences may not permit AI use - VALIDATE; (3) portability test adds one item to gate 2 not in A3
+
+### #0405 | 2026-11-10T19:23:28+05:30 | WRITE | section: C4 | prompt: tmpl
+- Wrote C4 v1-template and identical v2-filled; 7 CONFIRM; Table 2 215 words (budget 200, tolerance 220); ledger +10 keys provisional/suggested; evidence log Used-in updated
+- files: a4-workspace/sections/C4/C4_v1-template.md, a4-workspace/sections/C4/C4_v2-filled.md, a4-workspace/facts-ledger.md, a4-workspace/evidence/evidence-log.md, a4-workspace/state.md
+
+### #0406 | 2026-11-10T19:23:29+05:30 | PROMPT | section: C4 | prompt: tmpl
+- end: C4 templated; next /prompt-review C4 after learner saves v2
+
+### #0407 | 2026-11-10T21:06:23+05:30 | PROMPT | section: C4 | prompt: accept
+- start: accept C4
+
+### #0408 | 2026-11-10T21:06:31+05:30 | STATE | section: C4 | prompt: accept
+- C4 templated -> filled: learner edited v2 (all 7 CONFIRM resolved; safeguards 1-5, gate 3, decision row)
+
+### #0409 | 2026-11-10T21:06:31+05:30 | CHECK | section: C4 | prompt: accept
+- Accept REFUSED: status not reviewed, no v3-reviewed file; Table 2 now 252 words vs 200 budget (tolerance 220); review required first
+
+### #0410 | 2026-11-10T21:06:32+05:30 | PROMPT | section: C4 | prompt: accept
+- end: not accepted; next /prompt-review C4
+
+### #0411 | 2026-11-10T21:06:58+05:30 | PROMPT | section: C4 | prompt: review
+- start: review C4 (learner replied 'Yes, review C4')
+
+### #0412 | 2026-11-10T21:08:18+05:30 | REVIEW | section: C4 | prompt: review
+- C4 reviewed: Full/Full/Full, indicative 7-8 -> 8-9 of 9; 8 edit rows; 0 CONFIRM; no decision changed
+- detail: Learner resolved all 7 CONFIRM; kept Conditional Go; added gate 3 fallback (pack 1 limited to subscribed-source and published pricing data). Edits: Table 2 253 -> 216 words; labelled two 'understood to' statements Org evidence unverified; first-year inference wording; refs moved to caption. Flags: Table 1 ~740 words vs page cap; portability test not in A3 gate 2; fallback vs A3 live request
+
+### #0413 | 2026-11-10T21:08:18+05:30 | CHECK | section: C4 | prompt: review
+- X-05, X-06, X-07, X-09, X-10, X-13, X-14, X-16 (216/200, tol 220), X-17 PASS; no arithmetic; E5, E6, E7, E9, E13, E14 exist; no new legal claim
+
+### #0414 | 2026-11-10T21:08:18+05:30 | WRITE | section: C4 | prompt: review
+- Wrote C4 v3-reviewed and review report; ledger C4 keys -> reviewed; state reviewed
+- files: a4-workspace/sections/C4/C4_v3-reviewed.md, a4-workspace/sections/C4/C4_review-report.md, a4-workspace/facts-ledger.md, a4-workspace/state.md
+
+### #0415 | 2026-11-10T21:08:18+05:30 | PROMPT | section: C4 | prompt: review
+- end: C4 reviewed; next /prompt-accept C4
+
+### #0416 | 2026-11-10T21:09:21+05:30 | PROMPT | section: C4 | prompt: accept
+- start: accept C4 (learner replied 'Yes, accept C4')
+
+### #0417 | 2026-11-10T21:09:32+05:30 | CHECK | section: C4 | prompt: accept
+- Pre-accept PASS: status reviewed, v3 unedited since review, no CONFIRM/GUIDE, 5+5 rows, Table 2 216 words (budget 200, tolerance 220), Hypothetical labels present, E5/E6/E7/E9/E13/E14 exist, X-05/X-06/X-07/X-10/X-13 PASS
+
+### #0418 | 2026-11-10T21:09:32+05:30 | STATE | section: C4 | prompt: accept
+- C4 reviewed -> accepted; C4_final.md written; 10 ledger keys confirmed
+- files: a4-workspace/sections/C4/C4_final.md, a4-workspace/facts-ledger.md, a4-workspace/config.md, a4-workspace/state.md
+
+### #0419 | 2026-11-10T21:09:32+05:30 | DECISION | section: C4 | prompt: accept
+- Learner accepted C4: integrated decision Conditional Go (= A4); safeguard 1 terms confirmed before pilot pack 1 uses unpublished results, fallback pack 1 on subscribed-source and published pricing data
+
+### #0420 | 2026-11-10T21:09:32+05:30 | PROMPT | section: C4 | prompt: accept
+- end: C4 accepted; Parts A-C complete; next X1
+
