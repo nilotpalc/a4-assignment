@@ -1372,3 +1372,236 @@ _One entry per action. Written by a4_log.py. Never edit past entries._
 ### #0420 | 2026-11-10T21:09:32+05:30 | PROMPT | section: C4 | prompt: accept
 - end: C4 accepted; Parts A-C complete; next X1
 
+### #0421 | 2026-11-10T21:18:55+05:30 | PROMPT | section: - | prompt: resume
+- start: resume
+
+### #0422 | 2026-11-10T21:18:55+05:30 | PROMPT | section: - | prompt: resume
+- end: 14/17 accepted; next X1 (/prompt-evidence)
+
+### #0423 | 2026-11-10T21:19:34+05:30 | PROMPT | section: - | prompt: evlog
+- start: evlog (whole log)
+
+### #0424 | 2026-11-10T21:20:28+05:30 | CHECK | section: X1 | prompt: evlog
+- Checked all 14 working E-ids vs sections; all cited ids exist; re-searched EU Omnibus, IR Code, DPDP (secondary confirm; primaries not opened)
+
+### #0425 | 2026-11-10T21:20:29+05:30 | WRITE | section: X1 | prompt: evlog
+- Updated evidence-log E10-E12 notes/URLs; wrote X1_proposed-merge.md (E1-E6)
+- files: a4-workspace/evidence/evidence-log.md;a4-workspace/evidence/X1_proposed-merge.md
+
+### #0426 | 2026-11-10T21:20:29+05:30 | PROMPT | section: - | prompt: evlog
+- end: merge drafted, not applied; needs learner decision on renumbering
+
+### #0427 | 2026-11-10T21:22:55+05:30 | DECISION | section: X1 | prompt: evlog
+- Learner approved six-row merge E1-E6 and 13 Nov DPDP date fix
+
+### #0428 | 2026-11-10T21:22:56+05:30 | WRITE | section: X1 | prompt: evlog
+- Renumbered E-citations in 12 accepted finals (backups *_final.bak-*), C1 DPDP date 13 Nov, evidence-log merged, ledger refs updated; wording otherwise unchanged
+- files: a4-workspace/evidence/evidence-log.md;a4-workspace/facts-ledger.md
+
+### #0429 | 2026-11-10T21:23:05+05:30 | PROMPT | section: - | prompt: evlog
+- end: X1 table merged to E1-E6 and applied; next /prompt-note for X2 or X2 template
+
+### #0430 | 2026-11-10T21:48:19+05:30 | DECISION | section: X1 | prompt: evlog
+- Learner supplied validation response; edits applied to C1, C2 finals and E5/unverified list
+
+### #0431 | 2026-11-10T21:48:20+05:30 | WRITE | section: X1 | prompt: evlog
+- Applied 6 edits from X1_validation-response (C1 India+cross-border rows, C2 field 4, evidence-log E5); backups *.bak-*
+- files: a4-workspace/sections/C1/C1_final.md;a4-workspace/sections/C2/C2_final.md;a4-workspace/evidence/evidence-log.md
+
+### #0432 | 2026-11-10T21:48:25+05:30 | PROMPT | section: - | prompt: evlog
+- end: validation applied; ledger reg_india updated; next X2
+
+### #0433 | 2026-11-10T21:50:58+05:30 | PROMPT | section: - | prompt: reopen
+- start: reopen C1, C2 (learner: Run /prompt-reopen)
+
+### #0434 | 2026-11-10T21:50:59+05:30 | DECISION | section: - | prompt: reopen
+- Reason: validated legal wording (DPDP dates, IR Code rules, Art 4, Rule 15/Rule 7) applied directly to C1/C2 finals; re-review and re-accept wanted
+
+### #0435 | 2026-11-10T21:51:00+05:30 | STATE | section: C1 | prompt: reopen
+- C1, C2 accepted -> reopened; v2-filled recreated from final (old v2 archived); ledger keys provisional; dependents to re-check: C4, B4, C3 (C1); C1, C4 (C2)
+- files: a4-workspace/sections/C1/C1_v2-filled.md;a4-workspace/sections/C2/C2_v2-filled.md;a4-workspace/facts-ledger.md
+
+### #0436 | 2026-11-10T21:51:00+05:30 | PROMPT | section: - | prompt: reopen
+- end: next /prompt-review C1 then C2
+
+### #0437 | 2026-11-10T21:53:15+05:30 | REVIEW | section: C1 | prompt: review
+- C1 re-reviewed after reopen: Full, band unchanged; trimmed to word budget; validated legal wording kept
+
+### #0438 | 2026-11-10T21:53:16+05:30 | CHECK | section: C1 | prompt: review
+- X-14/X-16/X-17 PASS: E4,E5,E6 exist; no CONFIRM/GUIDE; no arithmetic
+
+### #0439 | 2026-11-10T21:53:16+05:30 | PROMPT | section: C1 | prompt: accept
+- start: accept C1 (learner asked to run review then accept)
+
+### #0440 | 2026-11-10T21:53:17+05:30 | STATE | section: C1 | prompt: accept
+- C1 reviewed -> accepted; final written
+- files: a4-workspace/sections/C1/C1_final.md
+
+### #0441 | 2026-11-10T21:53:17+05:30 | REVIEW | section: C2 | prompt: review
+- C2 re-reviewed after reopen: Full, band unchanged; trimmed to word budget; validated legal wording kept
+
+### #0442 | 2026-11-10T21:53:18+05:30 | CHECK | section: C2 | prompt: review
+- X-14/X-16/X-17 PASS: E4,E5,E6 exist; no CONFIRM/GUIDE; no arithmetic
+
+### #0443 | 2026-11-10T21:53:18+05:30 | PROMPT | section: C2 | prompt: accept
+- start: accept C2 (learner asked to run review then accept)
+
+### #0444 | 2026-11-10T21:53:19+05:30 | STATE | section: C2 | prompt: accept
+- C2 reviewed -> accepted; final written
+- files: a4-workspace/sections/C2/C2_final.md
+
+### #0445 | 2026-11-10T21:53:19+05:30 | DECISION | section: - | prompt: accept
+- Learner accepted C1, C2 after reopen; ledger keys confirmed; dependents C4, B4, C3 flagged wording-only re-check
+
+### #0446 | 2026-11-10T21:53:19+05:30 | PROMPT | section: - | prompt: accept
+- end: C1, C2 accepted; next X2
+
+### #0447 | 2026-11-10T21:54:54+05:30 | PROMPT | section: X1 | prompt: tmpl
+- start: tmpl X1
+
+### #0448 | 2026-11-10T21:54:55+05:30 | WRITE | section: X1 | prompt: tmpl
+- Wrote X1 v1-template and v2-filled from merged evidence log (E1-E6); E5 row text refreshed in evidence-log
+- files: a4-workspace/sections/X1/X1_v1-template.md;a4-workspace/sections/X1/X1_v2-filled.md;a4-workspace/evidence/evidence-log.md
+
+### #0449 | 2026-11-10T21:54:56+05:30 | PROMPT | section: X1 | prompt: tmpl
+- end: X1 templated; 3 CONFIRM; next /prompt-review X1
+
+### #0450 | 2026-11-10T22:02:18+05:30 | PROMPT | section: X1 | prompt: review
+- start: review X1
+
+### #0451 | 2026-11-10T22:03:13+05:30 | REVIEW | section: X1 | prompt: review
+- X1 reviewed: Full; 3 edits (E5 source wording + PRS link, Used-in for E1 and E4); 0 CONFIRM
+
+### #0452 | 2026-11-10T22:03:14+05:30 | CHECK | section: X1 | prompt: review
+- X-14 PASS: E1-E6 all cited in finals and all rows used; no invented URLs; no confidential content
+
+### #0453 | 2026-11-10T22:03:14+05:30 | WRITE | section: X1 | prompt: review
+- Wrote X1 v3-reviewed and report; state reviewed
+- files: a4-workspace/sections/X1/X1_v3-reviewed.md;a4-workspace/sections/X1/X1_review-report.md
+
+### #0454 | 2026-11-10T22:03:14+05:30 | PROMPT | section: X1 | prompt: review
+- end: X1 reviewed; next /prompt-accept X1
+
+### #0455 | 2026-11-10T22:04:26+05:30 | PROMPT | section: X1 | prompt: accept
+- start: accept X1
+
+### #0456 | 2026-11-10T22:04:27+05:30 | CHECK | section: X1 | prompt: accept
+- Pre-accept PASS: status reviewed, v3 unedited since review, no open CONFIRM, E1-E6 present, X-14 PASS
+
+### #0457 | 2026-11-10T22:04:28+05:30 | STATE | section: X1 | prompt: accept
+- X1 reviewed -> accepted; X1_final.md written (no ledger keys for X1)
+- files: a4-workspace/sections/X1/X1_final.md
+
+### #0458 | 2026-11-10T22:04:28+05:30 | DECISION | section: X1 | prompt: accept
+- Learner accepted X1: six rows E1-E6, no E7; IR Code primary check left as stated caveat
+
+### #0459 | 2026-11-10T22:04:28+05:30 | PROMPT | section: X1 | prompt: accept
+- end: X1 accepted; next X2
+
+### #0460 | 2026-11-10T22:12:48+05:30 | PROMPT | section: X2 | prompt: tmpl
+- start: tmpl X2
+
+### #0461 | 2026-11-10T22:13:10+05:30 | WRITE | section: X2 | prompt: tmpl
+- Wrote X2 v1-template and v2-filled: disclosure drafted from log; ticks, row 3 and signature left to learner
+- files: a4-workspace/sections/X2/X2_v1-template.md;a4-workspace/sections/X2/X2_v2-filled.md
+
+### #0462 | 2026-11-10T22:13:11+05:30 | PROMPT | section: X2 | prompt: tmpl
+- end: X2 templated; 5 CONFIRM groups; next /prompt-review X2
+
+### #0463 | 2026-11-10T22:19:50+05:30 | PROMPT | section: X2 | prompt: review
+- start: review X2
+
+### #0464 | 2026-11-10T22:20:09+05:30 | REVIEW | section: X2 | prompt: review
+- X2 reviewed: row 2 specific, row 3 vague (flag), ticks/signature untouched; 1 edit; date 11-Nov-2026 is future (flag)
+
+### #0465 | 2026-11-10T22:20:09+05:30 | CHECK | section: X2 | prompt: review
+- No agent ticks or signature changed; no open CONFIRM; disclosure consistent with log
+
+### #0466 | 2026-11-10T22:20:09+05:30 | WRITE | section: X2 | prompt: review
+- Wrote X2 v3-reviewed and report; state reviewed
+- files: a4-workspace/sections/X2/X2_v3-reviewed.md;a4-workspace/sections/X2/X2_review-report.md
+
+### #0467 | 2026-11-10T22:20:09+05:30 | PROMPT | section: X2 | prompt: review
+- end: X2 reviewed; learner to decide row 3 before accept
+
+### #0468 | 2026-11-10T22:24:59+05:30 | PROMPT | section: X2 | prompt: accept
+- start: accept X2 (learner edited v3)
+
+### #0469 | 2026-11-10T22:25:13+05:30 | CHECK | section: X2 | prompt: accept
+- Pre-accept PASS: status reviewed; learner edited v3 (row 2 trimmed, ticks, name, date, signature are learner's); no open CONFIRM (guide-block items marked resolved); no ledger keys; no E-ids used; known flags: row 3 general, date 11-Nov-2026 future
+
+### #0470 | 2026-11-10T22:25:14+05:30 | STATE | section: X2 | prompt: accept
+- X2 reviewed -> accepted; X2_final.md written
+- files: a4-workspace/sections/X2/X2_final.md
+
+### #0471 | 2026-11-10T22:25:14+05:30 | DECISION | section: X2 | prompt: accept
+- Learner accepted X2 with own edits; row 3 kept as written despite flag (general, link-check claim); declaration ticks and signature are learner's
+
+### #0472 | 2026-11-10T22:25:15+05:30 | PROMPT | section: X2 | prompt: accept
+- end: X2 accepted; next X3 optional or /prompt-xcheck
+
+### #0473 | 2026-11-10T22:26:06+05:30 | PROMPT | section: - | prompt: xcheck
+- start: xcheck all
+
+### #0474 | 2026-11-10T22:26:57+05:30 | CHECK | section: - | prompt: xcheck
+- xcheck: 15 PASS, 1 FAIL minor (X-09 B4 vs C2 personal data), 2 WARN (X-07 Legal counsel, C4 'four legal items'/A1 E1 repeats); calc_check PASS
+- files: a4-workspace/output/xcheck-20261110-2226.md
+
+### #0475 | 2026-11-10T22:26:57+05:30 | PROMPT | section: - | prompt: xcheck
+- end: report written; next reopen B4 or compile
+
+### #0476 | 2026-11-10T22:30:22+05:30 | PROMPT | section: B4 | prompt: reopen
+- start: reopen B4
+
+### #0477 | 2026-11-10T22:30:22+05:30 | DECISION | section: B4 | prompt: reopen
+- Reason: xcheck X-09 FAIL - B4 row 3 'No personal data by design' conflicts with C1/C2 staff names in logs; learner accepted proposed wording
+
+### #0478 | 2026-11-10T22:30:24+05:30 | STATE | section: B4 | prompt: reopen
+- B4 accepted -> reopened; v2-filled recreated from final with agreed row 3 wording; old final/v2 archived; dependents: C4 (reference), B2/B3 no change
+- files: a4-workspace/sections/B4/B4_v2-filled.md;a4-workspace/facts-ledger.md
+
+### #0479 | 2026-11-10T22:30:24+05:30 | PROMPT | section: B4 | prompt: reopen
+- end: next /prompt-review B4
+
+### #0480 | 2026-11-10T22:30:59+05:30 | PROMPT | section: B4 | prompt: review
+- start: review B4
+
+### #0481 | 2026-11-10T22:31:24+05:30 | REVIEW | section: B4 | prompt: review
+- B4 re-reviewed: Full, band unchanged; 3 edits (word budget 272 -> 264, tolerance 264); X-09 wording kept
+
+### #0482 | 2026-11-10T22:31:25+05:30 | CHECK | section: B4 | prompt: review
+- X-09 PASS now; X-14 PASS (E4); X-16 264/240 within tolerance; no CONFIRM
+
+### #0483 | 2026-11-10T22:31:25+05:30 | WRITE | section: B4 | prompt: review
+- Wrote B4 v3-reviewed and report; state reviewed
+- files: a4-workspace/sections/B4/B4_v3-reviewed.md;a4-workspace/sections/B4/B4_review-report.md
+
+### #0484 | 2026-11-10T22:31:25+05:30 | PROMPT | section: B4 | prompt: review
+- end: B4 reviewed; next /prompt-accept B4
+
+### #0485 | 2026-11-10T22:32:04+05:30 | PROMPT | section: B4 | prompt: accept
+- start: accept B4
+
+### #0486 | 2026-11-10T22:32:05+05:30 | CHECK | section: B4 | prompt: accept
+- Pre-accept PASS: reviewed, v3 unedited, no CONFIRM/GUIDE, E4 exists, 264/240 within tolerance, X-08 X-09 X-14 X-17 PASS
+
+### #0487 | 2026-11-10T22:32:06+05:30 | STATE | section: B4 | prompt: accept
+- B4 reviewed -> accepted; final written; ledger keys confirmed
+- files: a4-workspace/sections/B4/B4_final.md;a4-workspace/facts-ledger.md
+
+### #0488 | 2026-11-10T22:32:06+05:30 | DECISION | section: B4 | prompt: accept
+- Learner accepted B4: row 3 staff-names/DPDP wording; xcheck X-09 resolved
+
+### #0489 | 2026-11-10T22:32:06+05:30 | PROMPT | section: B4 | prompt: accept
+- end: B4 accepted; next X3 optional or compile
+
+### #0490 | 2026-11-10T22:33:16+05:30 | PROMPT | section: - | prompt: compile
+- start: compile final
+
+### #0491 | 2026-11-10T22:34:14+05:30 | COMPILE | section: - | prompt: compile
+- Compiled A4_consolidated_v1 (final): lint CLEAN, 6,590 response words (~17.3 pages est.), DOCX only (no LibreOffice)
+- files: a4-workspace/output/A4_consolidated_v1.md;a4-workspace/output/A4_consolidated_v1.docx;a4-workspace/output/compile-report.md
+
+### #0492 | 2026-11-10T22:34:14+05:30 | PROMPT | section: - | prompt: compile
+- end: compiled; user to read, check page count in Word, complete declaration
+

@@ -15,13 +15,13 @@ Status flow: not_started -> templated -> filled -> reviewed -> accepted (reopene
 | B1 | Responsible-AI design obligations | 7 | accepted | a4-workspace/sections/B1/B1_final.md | 2026-11-08 15:07 |
 | B2 | Governance, RACI, three lines of defence | 8 | accepted | a4-workspace/sections/B2/B2_final.md | 2026-11-08 17:52 |
 | B3 | Ethics review, fairness, human oversight | 8 | accepted | a4-workspace/sections/B3/B3_final.md | 2026-11-08 18:17 |
-| B4 | Autonomy, incident response, culture | 7 | accepted | a4-workspace/sections/B4/B4_final.md | 2026-11-08 19:18 |
-| C1 | Regulatory applicability map | 8 | accepted | a4-workspace/sections/C1/C1_final.md | 2026-11-10 15:51 |
-| C2 | Data, privacy, cross-border design | 6 | accepted | a4-workspace/sections/C2/C2_final.md | 2026-11-10 18:29 |
+| B4 | Autonomy, incident response, culture | 7 | accepted | a4-workspace/sections/B4/B4_final.md | 2026-11-10 22:32 |
+| C1 | Regulatory applicability map | 8 | accepted | a4-workspace/sections/C1/C1_final.md | 2026-11-10 21:53 |
+| C2 | Data, privacy, cross-border design | 6 | accepted | a4-workspace/sections/C2/C2_final.md | 2026-11-10 21:53 |
 | C3 | Build vs buy vs partner | 7 | accepted | a4-workspace/sections/C3/C3_final.md | 2026-11-10 19:17 |
 | C4 | Vendor safeguards and integrated go / no-go | 9 | accepted | a4-workspace/sections/C4/C4_final.md | 2026-11-10 21:09 |
-| X1 | Evidence and assumptions reference log | 0 | not_started | - | - |
-| X2 | AI-assistance disclosure and honour declaration | 0 | not_started | - | - |
+| X1 | Evidence and assumptions reference log | 0 | accepted | a4-workspace/sections/X1/X1_final.md | 2026-11-10 22:04 |
+| X2 | AI-assistance disclosure and honour declaration | 0 | accepted | a4-workspace/sections/X2/X2_final.md | 2026-11-10 22:25 |
 | X3 | Executive decision summary (optional) | 0 | not_started | - | - |
 
-Accepted: 14/17 units (X3 is optional).
+Accepted: 16/17 units (X3 is optional).

@@ -7,7 +7,7 @@ generated: 2026-11-07T14:00:00+05:30
 ---
 # A3. Stage-gated funding and failure controls (9 marks)
 
-**Table 1. Decision checkpoints (USD thousands; TCO USD 165k; all gates, thresholds and tranches are proposals, Hypothetical, Ref E4, E7)**
+**Table 1. Decision checkpoints (USD thousands; TCO USD 165k; all gates, thresholds and tranches are proposals, Hypothetical, Ref E2, E3)**
 
 | Checkpoint / stage(s) | Evidence required for next funding decision | Owner of go / hold / redirect / kill call | Funding / resource release at this stage |
 |---|---|---|---|
@@ -22,6 +22,6 @@ Releases: 25 + 102 + 38 = 165, equal to the A2.2 total. They include reallocated
 
 | Decision control | Your response |
 |---|---|
-| One pre-agreed kill / stop condition: threshold, timing and accountable authority | If HR and Finance have not agreed in writing, in principle, to at least 5 FTE by the end of week 6 (gate 1), the Executive sponsor stops funding. The USD 102k Build tranche is not released and spend stops at about USD 25k; manual packs continue. 5 FTE is half the Expected reduction: USD 20k a month, year-1 benefit USD 40k and net (125), payback around month 19 before year-2 run costs (165 / 20, from month 11) (Hypothetical, Ref E7). |
-| Most material failure-pattern family (misunderstood problem / inadequate data / technology-first / scaling gap / problem difficulty) | Inadequate data. Data preparation is the largest bucket (USD 60k, 36% of TCO), its range runs USD 40-90k, and it is the biggest cost uncertainty in A2.2 (Estimate, Ref E5). Evidence packs are only as reliable as source access, extracts and metadata. |
+| One pre-agreed kill / stop condition: threshold, timing and accountable authority | If HR and Finance have not agreed in writing, in principle, to at least 5 FTE by the end of week 6 (gate 1), the Executive sponsor stops funding. The USD 102k Build tranche is not released and spend stops at about USD 25k; manual packs continue. 5 FTE is half the Expected reduction: USD 20k a month, year-1 benefit USD 40k and net (125), payback around month 19 before year-2 run costs (165 / 20, from month 11) (Hypothetical, Ref E3). |
+| Most material failure-pattern family (misunderstood problem / inadequate data / technology-first / scaling gap / problem difficulty) | Inadequate data. Data preparation is the largest bucket (USD 60k, 36% of TCO), its range runs USD 40-90k, and it is the biggest cost uncertainty in A2.2 (Estimate, Ref E2). Evidence packs are only as reliable as source access, extracts and metadata. |
 | One design measure that addresses that failure pattern | Fund data before model (proposed control): the data-access spike and source inventory run first, inside gate 1. The balance of data preparation (USD 50k at Expected) and all USD 45k of connectivity stay locked until every approved source is confirmed extractable and bucket 6 is re-estimated at or below USD 90k. |

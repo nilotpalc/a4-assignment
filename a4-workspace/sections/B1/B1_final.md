@@ -7,7 +7,7 @@ generated: 2026-11-08T15:20:00+05:30
 ---
 # B1. Convert responsible-AI principles into design obligations (7 marks)
 
-**Design obligations for the Leadership-team evidence-pack research agent (all obligations, tests and thresholds are proposed controls, Hypothetical; NIST AI RMF used as a guide, no certification sought, Ref E8)**
+**Design obligations for the Leadership-team evidence-pack research agent (all obligations, tests and thresholds are proposed controls, Hypothetical; NIST AI RMF used as a guide, no certification sought, Ref E4)**
 
 | Taught principle | Specific design obligation for this initiative | Evidence / test demonstrating the obligation is met |
 |---|---|---|
